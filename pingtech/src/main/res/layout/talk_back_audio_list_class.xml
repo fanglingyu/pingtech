@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dip"
+    android:layout_marginTop="10dip"
+    android:background="#f0f3fa"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/talk_back_audio_list_left"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="#f0f3fa"
+        android:gravity="center|left"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/audio_list_class_btn_del_left"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/tb_btn_del_true"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/audio_list_class_name_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="三个字"
+            android:textColor="#022857"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/audio_list_class_audio_btn_left"
+            android:layout_width="110dip"
+            android:layout_height="48dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/tb_btn_audio_bg_left3"
+            android:minWidth="80dip"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/audio_list_class_date_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="10:12:55"
+            android:textColor="#9d9d9d"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/talk_back_audio_list_right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="#f0f3fa"
+        android:gravity="center|right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/audio_list_class_date_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="10:12:55"
+            android:textColor="#9d9d9d"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/audio_list_class_audio_btn_right"
+            android:layout_width="110dip"
+            android:layout_height="48dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/tb_btn_audio_bg_right3"
+            android:minWidth="80dip"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:paddingRight="10dip"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/audio_list_class_name_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="我"
+            android:textColor="#254a74"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/audio_list_class_btn_del_right"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/tb_btn_del_true"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

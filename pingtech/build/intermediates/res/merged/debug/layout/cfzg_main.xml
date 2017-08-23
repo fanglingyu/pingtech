@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="25dip"
+        android:layout_weight="2"
+        android:columnWidth="95dip"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dip" >
+
+        <Button
+            android:id="@+id/cfzg_btn_logout"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:onClick="cfzgButtonClick"
+            android:background="@drawable/cfzg_btn_logout_common"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:layout_centerInParent="true"
+            android:id="@+id/cfzg_btn_back"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:onClick="cfzgButtonClick"
+            android:layout_marginLeft="20dip"
+            android:layout_toRightOf="@id/cfzg_btn_logout"
+            android:background="@drawable/cfzg_btn_logout_common"
+            android:text="@string/cfzg_readcard_back"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+</LinearLayout>

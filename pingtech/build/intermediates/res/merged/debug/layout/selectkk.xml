@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/select_kk_name"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/select_kk_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_common"
+                android:gravity="top"
+                android:singleLine="true"
+                android:textColor="@color/textcolor"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/select_submit_kk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_common"
+            android:text="@string/select"
+            android:textColor="@drawable/btn_textcolor"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/select_slotcard_kk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/select_submit_kk"
+            android:background="@drawable/btn_common"
+            android:text="@string/slotcard"
+            android:textColor="@drawable/btn_textcolor"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/bigsepline" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/select_result_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:id="@+id/listview_topline"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/divider"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="0dip"
+            android:footerDividersEnabled="false"
+            android:listSelector="#00000000"
+            android:visibility="gone" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

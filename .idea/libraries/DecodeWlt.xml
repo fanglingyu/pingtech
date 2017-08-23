@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DecodeWlt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pingtech/libs/DecodeWlt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

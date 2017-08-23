@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/jqlb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/jqlb"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/fbsj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/fbsj"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/xtry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/xtry"
+                android:textColor="@color/white"
+                android:textSize="20sp" 
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/fbr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/fbr"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cjfzr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/cjfzr"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/pzr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/pzr"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/zlnr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/zlnr"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/oldpolicedictate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/policedictate_radio_text"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="@string/isfeedback"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/policedictate_radio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:button="@drawable/radiobutton"
+                        android:text="@string/yes"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:button="@drawable/radiobutton"
+                        android:text="@string/no"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/policedictate_feedback"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/feedbackcontent"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/feedback_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="@drawable/edittext_common"
+                    android:gravity="top"
+                    android:hint="@string/inputfeedbackcontent"
+                    android:textColor="@color/textcolor" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/bigsepline" />
+
+        <RelativeLayout
+            android:id="@+id/newpolicedictate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/policedictate_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/qianshou"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="19sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

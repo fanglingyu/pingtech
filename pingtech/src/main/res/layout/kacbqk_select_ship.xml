@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:id="@+id/select_ship_jianhu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="@string/shipname"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/selectship_name_jianhu"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_common"
+                    android:gravity="top"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="口岸状态："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/kacbqk_select_ship_cbkazt"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="船舶性质："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/selectship_property_spinner"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:focusable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="@string/matouname"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/selectship_matou_spinner"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:focusable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="@string/boweiname"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/selectship_bowei_spinner"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:focusable="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/bigsepline" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/select_ship_submit"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_common"
+            android:text="@string/select"
+            android:onClick="click"
+            android:textColor="@drawable/btn_textcolor"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

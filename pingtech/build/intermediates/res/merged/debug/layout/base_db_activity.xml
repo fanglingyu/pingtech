@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_01"
+        android:gravity="center"
+        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="泊位线程" />
+
+    <Button
+        android:id="@+id/btn_02"
+        android:gravity="center"
+        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="码头线程" />
+
+    <Button
+        android:id="@+id/btn_03"
+        android:onClick="click"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="船舶线程" />
+
+</LinearLayout>

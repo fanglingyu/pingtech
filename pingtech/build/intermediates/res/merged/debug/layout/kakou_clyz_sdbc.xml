@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:id="@+id/valid_result"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Valid_results_fbfzj"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_fx"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Traffic_direction"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <RadioGroup
+                        android:id="@+id/direction_radio"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_btn_up"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton"
+                            android:checked="true"
+                            android:text="@string/inkakou"
+                            android:textColor="@color/textcolor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_btn_down"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton"
+                            android:text="@string/outkakou"
+                            android:textColor="@color/textcolor"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:text="@string/cardinfo"
+                    android:textColor="@color/TitleInfoTextColor"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="车牌号码："
+                        android:textColor="@color/red"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/cphm"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="车辆类型："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/cllx"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="国家地区："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_gjdq"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:onClick="click"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="识别代号："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/clsbdh"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发动机号："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/fdjh"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="车辆品牌："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/clpp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="车辆颜色："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/clys"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="公司/拥有者："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/gs_yyz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:src="@drawable/bigsepline" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="驾驶员姓名："
+                        android:textColor="@color/red"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/jsyxm"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sel_person_sex"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <RadioGroup
+                        android:id="@+id/sex_radio"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_btn_m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton"
+                            android:checked="true"
+                            android:text="男"
+                            android:textColor="@color/textcolor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_btn_f"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dip"
+                            android:button="@drawable/radiobutton"
+                            android:text="女"
+                            android:textColor="@color/textcolor"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="驾驶证编号："
+                        android:textColor="@color/red"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/jszh"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="国　　籍："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_gj"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:onClick="click"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/country_list"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:textSize="18sp"
+                        android:visibility="gone" >
+                    </Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="出生日期："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <DatePicker
+                        android:id="@+id/csrq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sel_person_cardtype"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/zjzl"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/idcardnum"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/zjhm"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sel_person_office"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/office_spinner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="联系方式："
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/lxfs"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="50"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goods_check_unit"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/ssdw"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:maxLength="50"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/bigsepline" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_bc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_common"
+                        android:onClick="click"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="20dip"
+                        android:text="@string/save"
+                        android:textColor="@drawable/btn_textcolor"
+                        android:textSize="19sp" />
+
+                    <Button
+                        android:id="@+id/cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dip"
+                        android:background="@drawable/btn_common"
+                        android:onClick="click"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="20dip"
+                        android:text="@string/cancel"
+                        android:textColor="@drawable/btn_textcolor"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

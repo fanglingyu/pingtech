@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\normalxunjian.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\normalxunjian.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_locate.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\ic_action_locate.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\kakoumanager.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\kakoumanager.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\unbindship.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\unbindship.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ship_in.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\ship_in.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dictsync.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\dictsync.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\header_bg_v.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\header_bg_v.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\clean.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\clean.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainmenu_bg_v.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\mainmenu_bg_v.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\serverset.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\serverset.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\kacbqk.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\kacbqk.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone_small.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\phone_small.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\datacollect.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\datacollect.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logout.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\logout.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\photo.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\photo.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\swupdate.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\swupdate.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_2_s.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\btn_2_s.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shipstatus.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\shipstatus.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shipsel.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\shipsel.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcheck.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\quickcheck.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\check_network.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\check_network.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bigsepline.9.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\bigsepline.9.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\goodsckeck.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\goodsckeck.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hook.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\hook.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cljc.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\cljc.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\systemmanage.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\systemmanage.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tikoumanager.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\tikoumanager.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\leave.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\leave.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_2_empty.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\btn_2_empty.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wdqw.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\wdqw.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bindship.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\bindship.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\outline_list_collapse.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\outline_list_collapse.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\talkback.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\talkback.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xunchaxunjian.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\xunchaxunjian.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\unbindkakou.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\unbindkakou.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exceptioninfo.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\exceptioninfo.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\changepsw.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\changepsw.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chagangchashao.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\chagangchashao.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gpsset.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\gpsset.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paycard.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\paycard.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\unbindplace.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\unbindplace.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logoutnew.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\logoutnew.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\header_bg_h.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\header_bg_h.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\personbalance.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\personbalance.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\baseinfomaintenance.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\baseinfomaintenance.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bindplace.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\bindplace.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\statusbar_bg_v.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\statusbar_bg_v.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\smallsepline.9.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\smallsepline.9.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ship_out.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\ship_out.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_header_bg_v.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\main_header_bg_v.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_2_bg.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\btn_2_bg.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone_big.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\phone_big.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrive.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\arrive.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mypolice.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\mypolice.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\signal_wave.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\signal_wave.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\peoplesel.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\peoplesel.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bindkakou.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\bindkakou.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\id.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\id.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cardsel.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\cardsel.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\outline_list_expand.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\outline_list_expand.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\switchuser.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\switchuser.png"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\system.png",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\drawable-hdpi\\system.png"
+    }
+]

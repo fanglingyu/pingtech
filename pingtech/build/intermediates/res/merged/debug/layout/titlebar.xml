@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_header_bg_v" >
+
+    <TextView
+        android:id="@+id/current_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="2dip"
+        android:text="@string/app_name_all"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/title_sep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/current_dialog_title"
+        android:src="@drawable/titlesep"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/current_dialog_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip"
+        android:layout_toRightOf="@+id/title_sep1"
+        android:text="@string/app_name_all"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/title_sep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/current_dialog_title2"
+        android:src="@drawable/titlesep"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/current_dialog_title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip"
+        android:layout_toRightOf="@+id/title_sep2"
+        android:text="@string/app_name_all"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/cfzg_cyxx_list_title_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="20dip"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!--
+    <TextView
+        android:id="@+id/current_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" 
+        android:text="@string/accountName"
+        android:textColor="@color/whitesmoke"
+        android:textSize="15sp" />
+    -->
+
+</RelativeLayout>

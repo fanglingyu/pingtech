@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\out_lefttoright.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\out_lefttoright.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\outalpha.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\outalpha.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\out.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\disappear_alpha.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\disappear_alpha.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\enter.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\enter.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\out_righttoleft.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\out_righttoleft.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\enter_lefttoright.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\enter_lefttoright.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\enter_righttoleft.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\enter_righttoleft.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\anim\\enteralpha.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\anim\\enteralpha.xml"
+    }
+]

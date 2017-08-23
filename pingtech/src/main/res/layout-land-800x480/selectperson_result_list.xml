@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_h"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="60dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/sequence"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/person_balance_name"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="60dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/person_balance_sex"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/person_balance_office"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/cardtype"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/person_balance_cardnum"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="120dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/operate"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5px"
+                android:background="@color/divider" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/divider"
+            android:dividerHeight="0.5px"
+            android:fadingEdge="none"
+            android:listSelector="#00000000" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5px"
+                android:background="@color/divider" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

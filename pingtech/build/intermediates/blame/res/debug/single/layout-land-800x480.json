@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\police_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\police_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\xunchaxunjiandetail.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\xunchaxunjiandetail.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectkk.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectkk.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectperson_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectperson_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\login.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\login.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\base.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\base.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\networksetting.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\networksetting.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\ship_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\ship_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\extendsbind.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\extendsbind.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\nationality_option_overlay.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\nationality_option_overlay.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\objectdetail.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\objectdetail.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectdevice.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectdevice.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\mainmenu_item.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\mainmenu_item.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\titlebar.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\titlebar.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\personbalance_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\personbalance_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\dutyperson_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\dutyperson_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\goodscheck_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\goodscheck_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\popup.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\popup.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectperson_result_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectperson_result_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\changepassword.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\changepassword.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\dutyperson_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\dutyperson_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\persondetail.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\persondetail.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\exception_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\exception_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\sel_ship_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\sel_ship_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\goodscheck_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\goodscheck_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\kk_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\kk_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\personbalance_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\personbalance_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\exceptioninfo.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\exceptioninfo.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\baseinfo_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\baseinfo_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectship_result_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectship_result_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\readcard.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\readcard.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectperson.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectperson.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\xunchaxunjian_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\xunchaxunjian_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\police_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\police_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\exception_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\exception_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\baseinfo_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\baseinfo_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\goodsrecord.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\goodsrecord.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\nationality_options.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\nationality_options.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\kacbqkddl_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\kacbqkddl_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\shipdetail.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\shipdetail.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectdevice_result_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectdevice_result_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\ship_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\ship_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectdevice_result_list.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectdevice_result_list.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\policedictate.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\policedictate.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\xuncha_sel_ship_listview_class.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\xuncha_sel_ship_listview_class.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\register_personinfo.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\register_personinfo.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\main.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\main.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\nationality_option_list_item.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\nationality_option_list_item.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\loginbycard.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\loginbycard.xml"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\layout-land-800x480\\selectship.xml",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\layout-land-800x480\\selectship.xml"
+    }
+]

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/cfzg_listview_page_up"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/cfzg_btn_all_comment"
+            android:onClick="cfzgButtonClick"
+            android:text="上一页"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/cfzg_listview_page_down"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/cfzg_listview_page_up"
+            android:background="@drawable/cfzg_btn_all_comment"
+            android:onClick="cfzgButtonClick"
+            android:text="下一页"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/cfzg_listview_page_back"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/cfzg_listview_page_down"
+            android:background="@drawable/cfzg_btn_all_comment"
+            android:onClick="cfzgButtonClick"
+            android:text="返    回"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </RelativeLayout>
+</LinearLayout>

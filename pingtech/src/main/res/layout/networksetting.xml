@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:visibility="gone"
+                android:paddingRight="10dip" >
+
+                <TextView
+                    android:id="@+id/currentaddr_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currentaddr_text"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/currentaddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currentserveraddr"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp"
+                    android:visibility="gone" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/ip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IP地址："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/serverhost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_common"
+                    android:inputType="textUri"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/comm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="端口号："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/server_comm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_common"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="访问地址："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/server_wsdlurl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_common"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dip"
+                android:visibility="gone" >
+
+                <CheckBox
+                    android:id="@+id/webservice_cb"
+                    style="@style/PingTechCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="是否使用WebService服务器"
+                    android:textColor="@color/textcolor" >
+                </CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/webservice_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="命名空间："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_namespace"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="访问账号："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_username"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="访问密码："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:password="true"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="业务代码："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_code"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:id="@+id/server_kadm_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/server_kadm_title"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_kadm"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="参数1："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_arg1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="参数2："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_arg2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="参数3："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_arg3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="参数4："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_arg4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="参数5："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/server_arg5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor"
+                        android:text="kadm"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/bigsepline" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/networksetting_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="保存"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/networksetting_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="取消"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="19sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

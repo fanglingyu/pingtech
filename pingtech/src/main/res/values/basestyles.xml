@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/andrandroid:oid" xmlns:android1="http://schemas.android.com/apk/res/android">
+    <style name="buttonstyle">
+        <item name="android:background">@drawable/btn_common</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:onClick">click</item>
+    </style>
+    <style name="textview_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">3dip</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

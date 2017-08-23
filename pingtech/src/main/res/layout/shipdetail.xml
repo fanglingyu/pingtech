@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ship"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/shipdetail_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/shipchinaname"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shipdetail_enname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/shipenglishname"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shipdetail_country"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/shipcountry"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shipdetail_property"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/shipproperty"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dip"
+                    android:text="@string/shippos"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/shipdetail_pos"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dip"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shipdetail_checkclass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/shipcheckclass"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/jczt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/shipcheckstatus"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dip"
+                    android:text="@string/shipcompany"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/shipdetail_company"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dip"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shipdetail_peoplenumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/shippeoplenumber"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shipdetail_loginnumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/shippeopleloginnumber"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shipdetail_customnumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/shipcustomnumber"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shipdetail_kacbzt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/kacbzt"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/yjsj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/yjsj"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/zjsj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/zjsj"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/cbsj_yjdgsj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/yjdgsj"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/cbsj_dgsj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/dgsj"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/cbsj_yjlgsj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/yjlgsj"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/kk_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/kk_name"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/kk_rang"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/kk_rang"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/kk_addr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/kk_addr"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="6dip"
+            android:src="@drawable/bigsepline" />
+
+        <RelativeLayout
+            android:id="@+id/ksyf_ybd_an"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/select_ship_query"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_common"
+                android:text="@string/select"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/slotcard_dengji"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/select_ship_query"
+                android:background="@drawable/btn_common"
+                android:text="@string/slotcard"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/ship_unbind"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/slotcard_dengji"
+                android:background="@drawable/btn_common"
+                android:text="@string/unbind"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/shipdetail_btn_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/shipdetail_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="绑定"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/shipdetail_duty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="执勤人员"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="19dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shipdetail_btn_layout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="已绑定"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="19dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/shipdetail_save_xj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:background="@drawable/btn_common"
+                android:onClick="click"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="保存记录"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="19sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

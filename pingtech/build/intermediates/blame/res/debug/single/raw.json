@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\kkyz_successful.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\kkyz_successful.wav"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\verification_failed_cn.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\verification_failed_cn.wav"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\notification.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\notification.wav"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\notesond.mp3",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\notesond.mp3"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\kkyz_fail.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\kkyz_fail.wav"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\msg.mp3",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\msg.mp3"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\ship_up_passed_cn.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\ship_up_passed_cn.wav"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\ship_down_passed_cn.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\ship_down_passed_cn.wav"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\ic_mag.mp3",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\ic_mag.mp3"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\message_sound.mp3",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\message_sound.mp3"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\ship_up_passed_en.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\ship_up_passed_en.wav"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\verification_failed_en.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\verification_failed_en.wav"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\msgx4.mp3",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\msgx4.mp3"
+    },
+    {
+        "merged": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\build\\intermediates\\res\\merged\\debug\\raw\\ship_down_passed_en.wav",
+        "source": "F:\\develop\\AndroidStudioProjects\\pingtech\\pingtech\\src\\main\\res\\raw\\ship_down_passed_en.wav"
+    }
+]

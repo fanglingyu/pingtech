@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/cardinfo"
+                android:textColor="@color/TitleInfoTextColor"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sel_person_name"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_common"
+                    android:gravity="top"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/sel_person_sex"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/sex_radio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:checked="true"
+                        android:text="男"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dip"
+                        android:button="@drawable/radiobutton"
+                        android:text="女"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="国　　籍："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_country"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/country_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:textSize="20sp"
+                    android:visibility="gone" >
+                </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sel_person_office"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/office_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出生日期："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <DatePicker
+                    android:id="@+id/datePicker_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sel_person_cardtype"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/card_type_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/idcardnum"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/cardnum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_common"
+                    android:gravity="top"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goods_check_unit"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/unit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_common"
+                    android:gravity="top"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/bigsepline" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/goods_record_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goods_downup_time_tag"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goods_type"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/goods"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingTop="10dip"
+                        android:singleLine="false"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/add_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_common"
+                        android:gravity="center"
+                        android:onClick="onClickMethod"
+                        android:paddingTop="10dip"
+                        android:text="@string/choose_good"
+                        android:textColor="@drawable/btn_textcolor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goods_downup"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/goods_downup_radio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:checked="true"
+                        android:text="@string/goodscheck_up_ship"
+                        android:textColor="@color/textcolor" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_down"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dip"
+                        android:button="@drawable/radiobutton"
+                        android:text="@string/goodscheck_down_ship"
+                        android:textColor="@color/textcolor" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="3dip"
+                android:src="@drawable/bigsepline" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/btn_common"
+                    android:text="@string/save"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="12sp" >
+                </Button>
+
+                <Button
+                    android:id="@+id/good_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="20dip"
+                    android:background="@drawable/btn_common"
+                    android:onClick="click"
+                    android:text="@string/cancel"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="12sp" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

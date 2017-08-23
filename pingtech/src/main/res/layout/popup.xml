@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="292px"
+    android:layout_height="211px"
+    android:background="@drawable/popup"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:gravity="center"
+        android:text="提示"
+        android:textColor="@color/black"
+        android:textSize="23sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75px"
+        android:gravity="center"
+        android:text="有新指令！"
+        android:textColor="@color/black"
+        android:textSize="25sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/message_02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85px"
+        android:gravity="center"
+        android:text="电池电量剩余20%   请充电！"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:visibility="gone" >
+    </TextView>
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="160px"
+        android:layout_height="60px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="66px"
+        android:text="立即查看"
+        android:onClick="click"
+        android:textSize="20sp" >
+    </Button>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="160px"
+        android:layout_height="60px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="66px"
+        android:text="返回"
+        android:onClick="onClick"
+        android:visibility="gone"
+        android:textSize="20sp" />
+
+</RelativeLayout>

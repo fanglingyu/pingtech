@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\pingtech\libs\org.eclipse.paho.client.mqttv3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58b39831f46f3176a209cfce8c63ae28b31b7e3d">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3_17ad9edabfbd7ae7d758283866364e73193056b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\AndroidImageCachemaster\build\intermediates\bundles\default\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15c03170be6fbbb27ca5bae0eb284fef5755253a">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\android-support-v4_a7256add69cef81cc678bc56c6bec46d728c4910.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\AndroidImageCachemaster\build\intermediates\bundles\default\libs\CWAC-AdapterWrapper.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47279a48717c22fb87f3d99f4f3d8e58ee622675">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\CWAC-AdapterWrapper_b1602a2913c7133da169f2265b0b533d23f4b585.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\pingtech\libs\ormlite-core-4.47.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e11abddd1e9c2053a92133fa83f78f7bedb820a9">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\ormlite-core-4.47_7fd55575abd1c9dd6c3e82490a66b7bd22cf5c86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\pingtech\libs\DecodeWlt.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08a75f3e9fd415101bfe5d7a77e644dec4fbed1d">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\DecodeWlt_06de98ce5e9b577a31651ed8f682812a2ec20349.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\pingtech\libs\microlog4android-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3dbfcfb407070fc33e60e26e45d059763afdaf94">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\microlog4android-1.0.0_e1fd8bc9e798c0495161c9e55fb73ccce688d881.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\pingtech\libs\PA8PA9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="826ce4b89ed090dcaaf0279e1dce94bd85231de5">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\PA8PA9_9f75347fcfa222a28d5e24ba13fbbe5deb73ffe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\AndroidImageCachemaster\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="34f2efc4c6433eb4862f4974b79add9923b762b1">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\classes_e305323793a45a8a6536fac757879ff32b096565.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\pingtech\libs\zxing-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da49d40434d98d94c4608c91f16ac8d939aff762">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\zxing-2.2_7e4b83ef23057bc30623cff0599d7c5475ab1ec5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\pingtech\libs\ksoap2-android-assembly-3.0.0-RC.2-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27ffa845773def5ead0745f85b5388f14a01f33b">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.0.0-RC.2-jar-with-dependencies_7766bc88b1a64fb8393a9bcd37cbf01025f2246e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\develop\AndroidStudioProjects\pingtech\pingtech\libs\ormlite-android-4.47.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c72f9ed54d8a8bab3fbf56da2b358308a67899a4">
+        <dex dex="F:\develop\AndroidStudioProjects\pingtech\pingtech\build\intermediates\pre-dexed\debug\ormlite-android-4.47_15e90d47a95d26dc9596a7db4397f44bf326bc89.jar" />
+    </item>
+
+</items>

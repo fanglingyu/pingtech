@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="40dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/divider" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cfzg_cyxx_listview_class_zjhm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cfzg_cyxx_listview_class_xh"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:text="10."
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cfzg_cyxx_listview_class_xm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名姓名"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+           
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cfzg_cyxx_listview_class_zw"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/cfzg_cyxx_listview_class_btn_up"
+                android:layout_marginRight="2dip"
+                android:gravity="center"
+                android:text="二管轮"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/cfzg_cyxx_listview_class_btn_down"
+                android:layout_width="90dip"
+                android:layout_height="33dip"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/cfzg_btn_all_comment"
+                android:text="Disembark"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cfzg_cyxx_listview_class_btn_up"
+                android:layout_width="90dip"
+                android:layout_height="33dip"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@id/cfzg_cyxx_listview_class_btn_down"
+                android:background="@drawable/cfzg_btn_all_comment"
+                android:text="Embark"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/divider" />
+    </LinearLayout>
+
+</LinearLayout>

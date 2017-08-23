@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/goods_record_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/name_s"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/goods_record_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/goods_downup_time_tag"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="@string/goods_type_tag"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/goods"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingTop="10dip"
+                        android:singleLine="false"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/add_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_common"
+                        android:gravity="center"
+                        android:onClick="onClickMethod"
+                        android:paddingTop="10dip"
+                        android:text="@string/choose_good"
+                        android:textColor="@drawable/btn_textcolor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/send_good_info_layout_select_ship"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" >
+
+                <TextView
+                    android:id="@+id/send_good_info_ship"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="船舶名称："
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/send_good_info_ship_name"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/send_good_info_ship"
+                    android:background="@drawable/edittext_common"
+                    android:enabled="false"
+                    android:text="未选择"
+                    android:textColor="@color/oldlace"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/send_good_info_btn_select_ship"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/btn_common"
+                    android:gravity="center"
+                    android:onClick="onClickMethod"
+                    android:text="选择"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/bigsepline" />
+
+        <TextView
+            android:id="@+id/send_good_info_ship_czsm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="5dip"
+            android:text="请先选择船舶，然后点击保存。"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/record_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="@string/save"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="19sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string name="cfzg_logout_error">船舶解绑失败，无法完成注销操作，请稍后再试！</string>
+    <string name="cfzg_quest_quit">确认注销？\n如果已绑定船舶，注销后将解除船舶绑定 。</string>
+     
+    <string name="cfzg_czsm">操作说明</string>
+    <string name="cfzg_czsm_one">■非本船船员上、下船，必需</string>
+    <string name="cfzg_czsm_two">■本船船员上、下船，请点击</string>
+    <string name="cfzg_czsm_sfz">身份证</string>
+    <string name="cfzg_czsm_sailors">船员名单</string>
+    <string name="cfzg_czsm_110">紧急报警</string>
+    <string name="cfzg_czsm_shipinfo">船舶信息</string>
+    <string name="cfzg_czsm_useonly">边检专用键</string>
+    <string name="cfzg_login_toast">请使用船方自管账号登录！</string>
+    <string name="cfzg_readcard_one">刷卡后，如果证件有效，将显示验证通过</string>
+    <string name="cfzg_readcard_two">刷卡后，如果证件无效，将显示验证失败</string>
+    <string name="cfzg_readcard_three">刷卡完毕后，请点击返回</string>
+    <string name="cfzg_readcard_four">现在，请刷卡！</string>
+    <string name="cfzg_readcard_back">返      回</string>
+    <string name="cfzg_jjbj">如需向边检站报警或求助请点击确认，边检站会派人前来处理。</string>
+    <string name="custom_dialog_for_exit_czsm">如需返回边检通主页面,请输入用户密码。</string>
+    
+    <string name="card_hander_open_id_failed">身份证读卡器启动失败</string>
+    <string name="card_hander_open_id_success">身份证读卡器启动成功</string>
+	<string name="cfzg_scan_zxing">扫二维码</string>
+    
+    <string name="cfzg_czsm_en">OPERATION  INSTRUCTION</string>
+    <string name="cfzg_czsm_one_en">■ For the non-ship’s crew embark/disembark, please click the button of</string>
+    <string name="cfzg_czsm_two_en">■ For ship’s crew embark/disembark, please press</string>
+    <string name="hgzl_denglunz_en">boarding pass card</string>
+    <string name="cfzg_czsm_sfz_en">ID card</string>
+    <string name="cfzg_czsm_sailors_en">crew list</string>
+    <string name="cfzg_czsm_110_en">Emergency Alarm</string>
+    <string name="cfzg_czsm_shipinfo_en">船舶信息</string>
+    <string name="cfzg_czsm_useonly_en">Dedicated key for immigration</string>
+    <string name="cfzg_login_toast_en">请使用船方自管账号登录！</string>
+    <string name="cfzg_jjbj_en">If you need report to or ask for help from immigration station, please click the confirmation button, immigration station will dispatch the immigration officers to deal with.</string>
+
+    <string name="init_faile">读卡器启动失败，请返回重试！</string>
+    <string name="init_success">读卡器启动成功！</string>
+    <string name="init_ic_success">IC读卡器启动成功！</string>
+    <string name="init_id_success">身份证读卡器启动成功！</string>
+    <string name="ic_not_init">IC卡未初始化！</string>
+    
+    <string name="cbzg_no_bindship_en">No ship binded!</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:orientation="vertical" >
+
+    <!-- Tab标签 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/my_relayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#33b5e5" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="#33b5e5"
+                android:orientation="horizontal"
+                android:paddingBottom="1dp" >
+
+                <RadioButton
+                    android:id="@+id/rYuDaoGang"
+                    style="@style/radioButton"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="0.5dp"
+                    android:text="@string/state_ship_plan_come_gang" />
+
+                <RadioButton
+                    android:id="@+id/rZaiGang"
+                    style="@style/radioButton"
+                    android:layout_width="fill_parent"
+                    android:text="@string/state_ship_doing_gang" />
+
+                <RadioButton
+                    android:id="@+id/rYuLiGang"
+                    style="@style/radioButton"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="0.5dp"
+                    android:text="@string/state_ship_plan_out_gang" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/radioGroup"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="4dp"
+                    android:layout_weight="1"
+                    android:background="#33b5e5"
+                    android:paddingRight="1dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="4dp"
+                    android:layout_weight="1"
+                    android:background="#33b5e5"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="4dp"
+                    android:layout_weight="1"
+                    android:background="#33b5e5"
+                    android:paddingLeft="1dp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- Tab标签结束 -->
+
+    <LinearLayout
+        android:id="@+id/listview_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</LinearLayout>

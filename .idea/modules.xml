@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidImageCachemaster/AndroidImageCachemaster.iml" filepath="$PROJECT_DIR$/AndroidImageCachemaster/AndroidImageCachemaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pingtech.iml" filepath="$PROJECT_DIR$/pingtech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pingtech/pingtech-pingtech.iml" filepath="$PROJECT_DIR$/pingtech/pingtech-pingtech.iml" />
+    </modules>
+  </component>
+</project>

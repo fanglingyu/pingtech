@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="40dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="0.5px"
+        android:layout_height="fill_parent"
+        android:background="@color/divider" />
+
+    <TextView
+        android:id="@+id/tx_time"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="0.5px"
+        android:layout_height="fill_parent"
+        android:background="@color/divider" />
+
+    <TextView
+        android:id="@+id/tx_fx"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="0.5px"
+        android:layout_height="fill_parent"
+        android:background="@color/divider" />
+
+    <TextView
+        android:id="@+id/tx_dd"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

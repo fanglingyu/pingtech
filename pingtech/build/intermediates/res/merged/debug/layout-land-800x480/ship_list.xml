@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_h" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ship"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="40dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/sequence"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="170dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/shipchinaname"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="170dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/shipenglishname"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="130dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/shipcountry"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="110dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/shipproperty"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="165dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/operate"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kk"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="40dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/sequence"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="170dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/kk_name"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="170dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/kk_rang"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="240dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/kk_addr"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="165dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/operate"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5px"
+                android:background="@color/divider" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/divider"
+            android:dividerHeight="0.5px"
+            android:fadingEdge="none"
+            android:listSelector="#00000000" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5px"
+                android:background="@color/divider" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

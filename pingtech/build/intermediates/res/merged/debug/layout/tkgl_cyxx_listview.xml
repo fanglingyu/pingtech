@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu_bg_v" >
+
+    <LinearLayout
+        android:id="@+id/tkgl_cyxx_list_czsm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tkgl_cyxx_list_czsm_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请认准船员姓名，然后点击后面上船或下船，最后请点击返回"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="2dip"
+        android:src="@drawable/bigsepline"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/tkgl_cyxx_list_listview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tkgl_cyxx_list_czsm"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/divider" />
+
+        <ListView
+            android:id="@+id/tkgl_list_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="355dip"
+            android:background="#00000000"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="0dip"
+            android:footerDividersEnabled="false"
+            android:listSelector="#00000000" >
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/tkgl_cyxx_list_bottom_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <Button
+            android:id="@+id/tkgl_listview_page_up"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/cfzg_btn_all_comment"
+            android:enabled="false"
+            android:onClick="tkglButtonClick"
+            android:text="上一页"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/tkgl_listview_page_down"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/tkgl_listview_page_up"
+            android:background="@drawable/cfzg_btn_all_comment"
+            android:enabled="false"
+            android:onClick="tkglButtonClick"
+            android:text="下一页"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/tkgl_listview_page_back"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/tkgl_listview_page_down"
+            android:background="@drawable/cfzg_btn_all_comment"
+            android:onClick="tkglButtonClick"
+            android:text="返    回"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

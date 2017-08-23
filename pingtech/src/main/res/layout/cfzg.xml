@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/cfzg_layout_cn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="6dip" >
+
+            <Button
+                android:id="@+id/cfzg_btn_cn_rigth"
+                android:layout_width="43dip"
+                android:layout_height="35dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cn_rigth"
+                android:onClick="cfzgButtonClick" />
+
+            <Button
+                android:id="@+id/cfzg_btn_cn_left"
+                android:layout_width="50dip"
+                android:layout_height="35dip"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/cfzg_btn_cn_rigth"
+                android:background="@drawable/cn_left"
+                android:onClick="cfzgButtonClick" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/cfzg_czsm"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cfzg_czsm_one"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="刷"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/cfzg_btn_passcard"
+                    android:layout_width="100dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/cfzg_btn_all_comment"
+                    android:onClick="cfzgButtonClick"
+                    android:text="@string/hgzl_denglunz"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="或"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/cfzg_btn_idcard"
+                    android:layout_width="100dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/cfzg_btn_all_comment"
+                    android:onClick="cfzgButtonClick"
+                    android:text="@string/cfzg_czsm_sfz"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="，出"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="现新的页面后，进行刷卡"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="2dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cfzg_czsm_two"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/cfzg_btn_sailorcard"
+                    android:layout_width="115dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/cfzg_btn_all_comment"
+                    android:onClick="cfzgButtonClick"
+                    android:text="@string/cfzg_czsm_sailors"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="，然后点击上船或"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="下船，进行验放"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="2dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="■当前状态"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/cfzg_index_lun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="非本船人员登轮人数 0"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/cfzg_index_lu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本船船员登陆人数  0"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="5dip"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/cfzg_btn_110"
+                android:layout_width="130dip"
+                android:layout_height="35dip"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cfzg_btn_logout_common"
+                android:onClick="cfzgButtonClick"
+                android:text="@string/cfzg_czsm_110"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/cfzg_btn_shipinfo"
+                android:layout_width="90dip"
+                android:layout_height="39dip"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@id/cfzg_btn_110"
+                android:background="@drawable/cfzg_btn_all_comment"
+                android:onClick="cfzgButtonClick"
+                android:text="@string/cfzg_czsm_shipinfo"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/cfzg_btn_useonly"
+                android:layout_width="130dip"
+                android:layout_height="35dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_toRightOf="@id/cfzg_btn_110"
+                android:background="@drawable/cfzg_btn_all_comment"
+                android:onClick="cfzgButtonClick"
+                android:text="@string/cfzg_czsm_useonly"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/cfzg_layout_en"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="6dip" >
+
+                <Button
+                    android:id="@+id/cfzg_btn_en_rigth"
+                    android:layout_width="50dip"
+                    android:layout_height="35dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/en_right"
+                    android:onClick="cfzgButtonClick" />
+
+                <Button
+                    android:id="@+id/cfzg_btn_en_left"
+                    android:layout_width="43dip"
+                    android:layout_height="35dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/cfzg_btn_en_rigth"
+                    android:background="@drawable/en_left"
+                    android:onClick="cfzgButtonClick" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/cfzg_czsm_en"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="■ Non-ship personnel embark/disembark the vessel, please click the button of"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/cfzg_btn_passcard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dip"
+                        android:background="@drawable/cfzg_btn_all_comment"
+                        android:onClick="cfzgButtonClick"
+                        android:text=" boarding pass card "
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" or "
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/cfzg_btn_idcard"
+                        android:layout_width="80dip"
+                        android:layout_height="35dip"
+                        android:background="@drawable/cfzg_btn_all_comment"
+                        android:onClick="cfzgButtonClick"
+                        android:text="@string/cfzg_czsm_sfz_en"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="23sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="and then swipe the corresponding card after the new interface appeared."
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="3dip"
+                android:src="@drawable/bigsepline" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="3dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="■ Ship’s crew embark/disembark"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="the vessel,"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/cfzg_btn_sailorcard"
+                        android:layout_width="100dip"
+                        android:layout_height="35dip"
+                        android:background="@drawable/cfzg_btn_all_comment"
+                        android:onClick="cfzgButtonClick"
+                        android:text="@string/cfzg_czsm_sailors_en"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=", then click"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="“embark” or “disembark” for checking."
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="3dip"
+                android:src="@drawable/bigsepline" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="3dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="■ Present status"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cfzg_index_lun_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The number of non-ship personnel on board 0"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cfzg_index_lu_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The number of ship’s crew on shore 0"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="3dip"
+                android:src="@drawable/bigsepline" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/cfzg_btn_110"
+                    android:layout_width="130dip"
+                    android:layout_height="35dip"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/cfzg_btn_logout_common"
+                    android:onClick="cfzgButtonClick"
+                    android:text="Emergency alarm"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/cfzg_btn_shipinfo"
+                    android:layout_width="90dip"
+                    android:layout_height="39dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_toRightOf="@id/cfzg_btn_110"
+                    android:background="@drawable/cfzg_btn_all_comment"
+                    android:onClick="cfzgButtonClick"
+                    android:text="Immigration private key"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/cfzg_btn_useonly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_toRightOf="@id/cfzg_btn_110"
+                    android:background="@drawable/cfzg_btn_all_comment"
+                    android:onClick="cfzgButtonClick"
+                    android:text="Immigration private key"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

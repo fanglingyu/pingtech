@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 离线功能相关-数据采集 -->
+    <string name="sjcj_save_failure">保存失败</string>
+    <string name="sjcj_save_success">保存成功</string>
+    <string name="sjcj_no_web_cannot_use_card">离线模式下不能用电子标签进行采集</string>
+    <string name="sjcj_czsb">操作失败，请稍后再试！</string>
+    <string name="sjcj_no_data_qljwl">无数据，请连接网络</string>
+
+    <!-- 离线功能相关-物品检查 -->
+    <string name="wpjc_no_data_qljwl">无数据，请连接网络</string>
+    <string name="wpjc_save_failure">保存失败</string>
+    <string name="wpjc_save_success">保存成功</string>
+    <string name="wpjc_czsb">操作失败，请稍后再试！</string>
+
+    <!-- 离线功能相关-异常信息 -->
+    <string name="ycxx_no_data_qljwl">无数据，请连接网络</string>
+    <string name="ycxx_save_failure">保存失败</string>
+    <string name="ycxx_save_success">保存成功</string>
+
+    <!-- 离线功能相关-船舶动态 -->
+    <!-- 船舶靠泊 -->
+    <string name="cbkb_ship_cannot_kb">已产生靠泊时间</string>
+    <string name="cbkb_ship_nodigang">船舶未抵港，不能靠泊</string>
+    <string name="cbkb_ship_hasligang">船舶已离港，不能靠泊</string>
+    <string name="cbkb_ship_notiaojian">没有靠泊指令</string>
+    <string name="cbkb_save_failure">保存失败</string>
+    <string name="cbkb_save_success">保存成功</string>
+    <!-- 船舶移泊 -->
+    <string name="cbyb_ship_cannot_yb">已产生移泊时间</string>
+    <string name="cbyb_ship_nodigang">船舶未抵港，不能移泊</string>
+    <string name="cbyb_ship_hasligang">船舶已离港，不能移泊</string>
+    <string name="cbyb_ship_notiaojian">没有移泊指令</string>
+    <string name="cbyb_save_failure">保存失败</string>
+    <string name="cbyb_save_success">保存成功</string>
+    <!-- 船舶离港 -->
+    <string name="cblg_ship_nodigang">离港操作失败，只有预离港船舶才能进行离港操作！</string>
+    <string name="cblg_ship_hasligang">离港操作失败，船舶已经离港！</string>
+    <string name="cblg_ship_notiaojian">没有离港指令</string>
+
+    <!-- 船舶抵港 -->
+    <string name="cbdg_ship_hasdigang">抵港操作失败，船舶已经抵港！</string>
+    <string name="cbdg_ship_hasligang">抵港操作失败，只有预到港船舶才能进行抵港操作！</string>
+    <string name="cbdg_ship_notiaojian">没有抵港指令</string>
+
+    <!-- 人员平衡 -->
+    <string name="now_denglun_people">当前登轮人员</string>
+    <string name="now_denglu_ship_people">当前登陆船员</string>
+    <string name="jkkwx">当前进卡口人员</string>
+    <string name="ckkwf">当前出卡口船员</string>
+    <string name="no_denglun_denglu">未找到登轮人员或登陆船员</string>
+    <string name="no_denglun">未找到当前登轮人员</string>
+    <string name="no_denglu">未找到当前登陆船员</string>
+    <string name="no_denglun_kk">未找到当前进卡口人员</string>
+    <string name="no_denglu_kk">未找到当前出卡口船员</string>
+
+    <!-- 异常信息 -->
+    <string name="zhengjiannum_empty">证件号码不能为空！</string>
+
+    <!-- 二维码扫描  - 物品检查 -->
+    <string name="wpjc_erweimasaomiao">扫二维码</string>
+    <string name="btn_add_image">巡检拍照</string>
+    <!-- 有效期 -->
+    <string name="zhi"> 至 </string>
+    <!-- 口岸船舶 -->
+    <string name="no_data_"></string>
+    <string name="error_get_data">获取数据失败，请重试</string>
+    <!-- 巡查巡检》查询人员结果 -->
+    <string name="histroy_data">历史数据</string>
+
+    <!-- 船舶详情，时间字段 -->
+    <string name="yjdgsj">预到港时间</string>
+    <string name="dgsj">抵港时间</string>
+    <string name="yjlgsj">预离港时间</string>
+    <string name="mh">：</string>
+    <string name="ydg">预到港</string>
+    <string name="zg">在港</string>
+    <string name="ylg">预离港</string>
+    <string name="lg">离港</string>
+    <string name="xhx">_</string>
+
+    <!-- 推送消息 -->
+    <string name="have_order">勤务指令</string>
+    <string name="have_order_msg">您有一条警务指令需要查收</string>
+    <string name="have_audio">语音消息</string>
+    <string name="have_audio_msg">您有一条语音消息</string>
+
+    <!-- 巡查巡检》地点绑定 -->
+    <string name="save_note">保存记录</string>
+
+    <!-- 绑定船舶时，如果已经绑定，显示的资源 -->
+    <string name="tishi">提示</string>
+    <string name="tishi_content">您已经绑定船舶，无需绑定；若您想重新绑定，请先执行船舶解绑操作</string>
+    <string name="queding">确定</string>
+    <!-- 绑定卡口时，如果已经绑定，显示的资源 -->
+    <string name="tishi_content_kakou">您已经绑定卡口，无需绑定；若您想重新绑定，请先执行卡口解绑操作</string>
+    <string name="choose_good">选择物品</string>
+    <string name="plase_choose_good">请选择物品种类</string>
+    <!-- “开启离线时，提示内容” -->
+    <string name="tishi_content_open_offline">开启离线成功，请下载离线数据</string>
+    <!-- “开启本地通行验证时，提示内容” -->
+    <string name="tishi_content_open_bdtxyz">开启本地通行验证功能成功，请下载离线数据</string>
+
+</resources>

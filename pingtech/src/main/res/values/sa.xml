@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="popuanimation">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/out</item>
+    </style>
+
+    <style name="AnimationActivity" parent="@android:style/Theme.Dialog">
+        <item name="android:activityOpenEnterAnimation">@anim/enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/out</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:activityCloseEnterAnimation">@anim/enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/out</item>
+    </style>
+
+</resources>

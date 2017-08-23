@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pingtech"
+    android:versionCode="248"
+    android:versionName="巡查版.2.4.8" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+    <!-- android:sharedUserId="android.uid.system" -->
+    <!-- android:versionName="哨兵版2.2.5" -->
+    <!-- android:versionName="巡查版2.2.5" -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURES" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问互联网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 查看网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 刻录声音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 调用震动设备权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 二维码权限 -->
+    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- android:largeHeap="true" -->
+    <application
+        android:name="com.pingtech.hgqw.base.BaseApplication"
+        android:icon="@drawable/logo_s1"
+        android:label="@string/app_name_new"
+        android:largeHeap="true" >
+        <activity
+            android:name="com.pingtech.hgqw.module.login.activity.Login"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name_new"
+            android:launchMode="singleTop"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <!-- 船方自管入口 -->
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgIndex"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.home.activity.Welcome"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/welcomeStyle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.readcard.test.activity.ReadActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.service.test.GpsTestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.offline.test.TestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.service.test.TestServiceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.home.activity.Index"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.FullScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.xtgl.activity.OfflineDataActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.offline.base.BaseDbActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/welcomeStyle" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.tikou.activity.TikouManager"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.tikou.activity.TiKouReadCard"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kakou.activity.KaKouReadCard"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kakou.activity.KakouCljc"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/sss"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.xunjian.activity.XunjianCljc"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/sss"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.xunjian.activity.XunjianClglSdbc"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/sss"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kakou.activity.KakouClglSdbc"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <!-- 梯口船员名单 -->
+        <activity
+            android:name="com.pingtech.hgqw.module.tikou.activity.TikoucymdActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kakou.activity.KakouManager"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.police.activity.MyPoliceList"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.SystemActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.exception.activity.Exceptioninfo"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.exception.activity.ExceptionView"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cbdt.activity.ShipStatus"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kacbqk.activity.KacbqkShipSearch"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kacbqk.activity.KacbqkShipList"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kacbqk.activity.KacbqkShipInfo"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kacbqk.activity.KacbqkSailorList"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.kacbqk.activity.KacbqkDldlList"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.ShipListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cbdt.activity.CbdtShipDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.xunjian.activity.ReadcardActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.bindship.activity.ReadSlotCardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.pingtech.hgqw.activity.RegisterPersoninfoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.SelectShipActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.SelectShipResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.SelectDeviceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.SelectDeviceResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.ShipDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.police.activity.MyPoliceDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.qwjw.activity.QwzlDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.PopupActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/info"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.login.activity.LoginByCard"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/info"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.SelectCountrylistActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.xunjian.activity.XunChaXunJian"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.exception.activity.Exceptionlist"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.sjcj.activity.BaseInfoMaintenanceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.PersonBalanceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.SelectPersonActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.SelectPersonResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.ChangePswActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.wpjc.activity.GoodsCheckList"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.wpjc.activity.GoodsCheckView"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.NetworkSettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.DutyPersonlistActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.UpdateActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/update_style" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cgcs.activity.CgcsDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.bindship.activity.ShipBind"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.bindship.activity.ShipBindList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.yydj.activity.TalkBack"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.InspectPlace"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar" >
+        </activity>
+
+        <service android:name="com.pingtech.hgqw.service.PingtechService" >
+            <intent-filter>
+                <action android:name="com.pingtech.PINGTECH_SERVICE" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+        <service android:name="com.pingtech.hgqw.service.AndSerOffLineData" >
+            <intent-filter>
+                <action android:name="com.pingtech.ANDSEROFFLINEDATA" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+        <service android:name="com.pingtech.hgqw.service.ListenerService" >
+            <intent-filter>
+                <action android:name="com.pingtech.LISTENER_SERVICE" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+        <service android:name="com.pingtech.hgqw.service.SynchDataService" >
+            <intent-filter>
+                <action android:name="com.pingtech.SYNCHDATA_SERVICE" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+        <!-- 推送服务 -->
+        <service
+            android:name="com.pingtech.hgqw.mqtt.service.MqttService"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.pingtech.MQTTSERVICE" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+        <service android:name="com.pingtech.hgqw.service.ImageDownloadService" >
+            <intent-filter>
+                <action android:name="com.pingtech.IMAGEDOWNLOADSERVICE" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+        <service android:name="com.pingtech.hgqw.service.Pa8GPSListener" />
+        <service android:name="com.pingtech.hgqw.readcard.service.Pa8ReadListener" />
+
+        <receiver
+            android:name="com.pingtech.hgqw.service.PingtechReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="PingtechReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!-- <receiver -->
+        <!-- android:name="com.pingtech.hgqw.service.NetChangeReceiver" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="NetChangeReceiver" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <activity
+            android:name="com.pingtech.hgqw.activity.CustomDialog"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebarDialog" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.activity.CustomDialogForExit"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebarDialog" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.wpjc.activity.GoodsReadCard"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.wpjc.activity.GoodsPersonDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.wpjc.activity.GoodsPersoninfo"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cgcs.activity.CgcsReadcard"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.bindplace.activity.BindPlaceReadcard"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.bindplace.activity.BindPlaceDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <!-- 船方自管相关 -->
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgCustomDialog"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebarDialog" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgCustomDialogForExit"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebarDialog" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgLoginByUserName"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgNetworkSettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzg_style_network"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgPopupActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgReadcardActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.IdreadtestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgSailorList"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgSelectShipActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgShipBindList"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgSelectShipResult"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgShipBind"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgShipDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgShipListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgShipStatus"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgSuperActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgUpdateActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.cfzg.CfzgUseOnly"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/cfzgtitlebar" >
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.module.xtgl.activity.FunctionSetting"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <!-- 二维码界面 -->
+        <activity
+            android:name="com.pingtech.hgqw.zxing.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCANS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pingtech.hgqw.zxing.ZxingDialogActivity"
+            android:label="@string/app_name"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.pingtech.hgqw.zxing.client.android.SCANS.dialog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.pingtech.hgqw.mqtt.receiver.MessageReceiver" >
+            <intent-filter>
+                <action android:name="com.qonect.services.mqtt.MSGRECVD" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.pingtech.hgqw.module.qwjw.QwzlBroadCaseReceiver" >
+            <intent-filter>
+                <action android:name="com.pingtech.hgqw.module.qwjw.QwzlBroadCaseReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 勤务警务 -->
+        <activity
+            android:name="com.pingtech.hgqw.module.qwjw.activity.QwjwActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:icon="@drawable/transparent_drawable"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/CustomTheme" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <service
+            android:name="com.softsz.mimaqudongservice.ExternalDeviceDriverService"
+            android:exported="true"
+            android:process=".remote.readid.DeviceService" >
+            <intent-filter>
+                <action android:name="com.softsz.IDCARDACTION" />
+            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="com.softsz.GPSACTION"/> -->
+            <!-- </intent-filter> -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="com.softsz.RFIDACTION"/> -->
+            <!-- </intent-filter> -->
+        </service>
+    </application>
+
+</manifest>

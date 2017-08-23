@@ -1,0 +1,1864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <LinearLayout
+                android:id="@+id/object_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/object_ll_person"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/object_person"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="人员"
+                        android:textColor="@color/selectTextColor"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/image_object_person"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:src="@drawable/exception_line_s" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line_object_person"
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="12dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/object_ll_car"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/object_car"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="车辆"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/image_object_car"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:src="@drawable/exception_line_n" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line_object_car"
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="12dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/object_ll_ship"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/object_ship"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="船舶"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/image_object_ship"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:src="@drawable/exception_line_n" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line_object_ship"
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="12dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/object_ll_device"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/object_device"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="设备"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/image_object_device"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:src="@drawable/exception_line_n" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line_object_device"
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="12dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/object_ll_area"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/object_area"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="区域"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/image_object_area"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:src="@drawable/exception_line_n" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="事件类别："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/exception_event_type_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ViewFlipper
+                android:id="@+id/viewflipper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip" >
+
+                <LinearLayout
+                    android:id="@+id/person"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="姓　　名："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_name_select"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dip"
+                            android:text="@string/sel_person_sex"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/exception_sex_radio"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/radio_btn_yes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/radiobutton"
+                                android:checked="true"
+                                android:text="男"
+                                android:textColor="@color/textcolor"
+                                android:textSize="20sp" />
+
+                            <RadioButton
+                                android:id="@+id/radio_btn_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dip"
+                                android:button="@drawable/radiobutton"
+                                android:text="女"
+                                android:textColor="@color/textcolor"
+                                android:textSize="20sp" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="国　　籍："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btn_exception_country"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <Spinner
+                            android:id="@+id/exception_country_list"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:focusable="true"
+                            android:textSize="20sp"
+                            android:visibility="gone" >
+                        </Spinner>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="出生日期："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <DatePicker
+                            android:id="@+id/datePicker"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sel_person_cardtype"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <Spinner
+                            android:id="@+id/exception_card_type_spinner"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:focusable="true"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="证件号码："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_cardnum"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="所属单位："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_unit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/car"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="车牌号码："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_car_num"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="车辆品牌："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_car_sign"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="所属单位："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_car_unit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="关联船舶："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_car_association_ship"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_car_select_association_ship"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="发动机号："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_engine_num"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ship"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="船舶中文名："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_ship_zwm"
+                            android:layout_width="115dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_ship_select_zwm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="船舶英文名："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_ship_ywm"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="国　　籍："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btn_exception_ship_country"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <Spinner
+                            android:id="@+id/exception_ship_country_list"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:focusable="true"
+                            android:textSize="20sp"
+                            android:visibility="gone" >
+                        </Spinner>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="所属单位："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_ship_unit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ship_association_ship_ll"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="关联船舶："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_ship_association_ship"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_ship_select_association_ship"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/device"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="设备名称："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_device_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_device_select_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="关联船舶："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_device_association_ship"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_device_select_association_ship"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/area"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="区域名称："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_area_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_area_select_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ViewFlipper>
+
+            <LinearLayout
+                android:id="@+id/cgcs_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/cgcs_exception_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:text="检查地点："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/exception_addr_radio_xc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_chuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:text="船舶"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_matou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:text="码头"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_bowei"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:text="泊位"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_quyu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:text="区域"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/exception_addr_radio_cgcs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_tikou_cgcs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:text="梯口"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_kakou_cgcs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:text="卡口"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_quyu_cgcs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:text="限定区域"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/exception_addr_tikou"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/exception_addr_detail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/exception_addr_xuncha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/exception_addr_xuncha_chuanbo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/shipname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_xuncha_chuanbo_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:textColor="@color/textcolor" />
+
+                        <Button
+                            android:id="@+id/exception_xuncha_chuanbo_select"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/matouname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_xuncha_chuanbo_matou_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:ellipsize="none"
+                            android:textColor="@color/textcolor" />
+
+                        <Button
+                            android:id="@+id/exception_xuncha_chuanbo_matou_select"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19dp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/boweiname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_xuncha_chuanbo_bowei_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:ellipsize="none"
+                            android:textColor="@color/textcolor" />
+
+                        <Button
+                            android:id="@+id/exception_xuncha_chuanbo_bowei_select"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19dp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/exception_addr_xuncha_bowei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/matouname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_addr_xuncha_bowei_matou_name"
+                            android:layout_width="115dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:ellipsize="none"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_addr_xuncha_bowei_matou_select"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/boweiname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_addr_xuncha_bowei_bowei_name"
+                            android:layout_width="115dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:ellipsize="none"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_addr_xuncha_bowei_bowei_select"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/exception_addr_xuncha_matou"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:text="@string/matouname"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/exception_addr_xuncha_matou_name"
+                        android:layout_width="115dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:editable="false"
+                        android:gravity="top"
+                        android:singleLine="true"
+                        android:ellipsize="none"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/exception_addr_xuncha_matou_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dip"
+                        android:background="@drawable/btn_common"
+                        android:text="选择"
+                        android:textColor="@drawable/btn_textcolor"
+                        android:textSize="19sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/exception_addr_xuncha_quyu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:text="@string/quyuname"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/exception_addr_xuncha_quyu_name"
+                        android:layout_width="115dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:editable="false"
+                        android:gravity="top"
+                        android:singleLine="true"
+                        android:ellipsize="none"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/exception_addr_xuncha_quyu_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dip"
+                        android:background="@drawable/btn_common"
+                        android:text="选择"
+                        android:textColor="@drawable/btn_textcolor"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/exception_addr_cgcs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/exception_addr_cgcs_tikou"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/shipname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_cgcs_chuanbo_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:ellipsize="none"
+                            android:textColor="@color/textcolor" />
+
+                        <Button
+                            android:id="@+id/exception_cgcs_chuanbo_select"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/matouname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_cgcs_chuanbo_matou_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:ellipsize="none"
+                            android:textColor="@color/textcolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/boweiname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_cgsc_chuanbo_bowei_name"
+                            android:layout_width="125dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:ellipsize="none"
+                            android:textColor="@color/textcolor" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/exception_addr_cgcs_kakou"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dip"
+                            android:text="@string/quyuname"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/exception_addr_cgcs_kakou_quyu_name"
+                            android:layout_width="115dip"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_common"
+                            android:editable="false"
+                            android:gravity="top"
+                            android:singleLine="true"
+                            android:ellipsize="none"
+                            android:textColor="@color/textcolor"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/exception_addr_cgcs_kakou_quyu_select"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dip"
+                            android:background="@drawable/btn_common"
+                            android:text="选择"
+                            android:textColor="@drawable/btn_textcolor"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/exception_addr_cgcs_quyu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:text="@string/quyuname"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/exception_addr_cgcs_quyu_name"
+                        android:layout_width="115dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_common"
+                        android:editable="false"
+                        android:gravity="top"
+                        android:singleLine="true"
+                        android:ellipsize="none"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/exception_addr_cgcs_quyu_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dip"
+                        android:background="@drawable/btn_common"
+                        android:text="选择"
+                        android:textColor="@drawable/btn_textcolor"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/check_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/check_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="检查日期："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <DatePicker
+                        android:id="@+id/datePicker_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="检查时间："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TimePicker
+                        android:id="@+id/timePicker_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="事件描述："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/exception_desc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dip"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:hint="请输入事件描述"
+                        android:maxLength="500"
+                        android:textColor="@color/textcolor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="事件备注："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/exception_remark"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dip"
+                        android:background="@drawable/edittext_common"
+                        android:gravity="top"
+                        android:hint="请输入事件备注"
+                        android:maxLength="500"
+                        android:textColor="@color/textcolor" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/deal_radiogroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dip"
+                    android:text="是否处理："
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/exception_radio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radiobutton"
+                        android:text="是"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:button="@drawable/radiobutton"
+                        android:checked="true"
+                        android:text="否"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/exception_deal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:text="处理类型："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:id="@+id/deal_radio"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/relativelayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal" >
+
+                                <RadioButton
+                                    android:id="@+id/radio_btn_guanzhu"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/radiobutton"
+                                    android:checked="true"
+                                    android:text="重点关注"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="15sp" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_btn_meisha"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/radiobutton"
+                                    android:text="梅沙处理"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" >
+
+                                <RadioButton
+                                    android:id="@+id/radio_btn_wubao"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/radiobutton"
+                                    android:text="误报"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="15sp" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_btn_other"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/radiobutton"
+                                    android:text="其他"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RadioGroup>
+
+                    <RadioGroup
+                        android:id="@+id/deal_radio_cgcs"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <RelativeLayout
+                            android:id="@+id/relativelayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <RadioButton
+                                android:id="@+id/radio_btn_wubao_cgcs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/radiobutton"
+                                android:text="误报"
+                                android:textColor="@color/textcolor"
+                                android:textSize="15sp" />
+
+                            <RadioButton
+                                android:id="@+id/radio_btn_other_cgcs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dip"
+                                android:layout_toRightOf="@+id/radio_btn_wubao_cgcs"
+                                android:button="@drawable/radiobutton"
+                                android:text="其他"
+                                android:textColor="@color/textcolor"
+                                android:textSize="15sp" />
+                        </RelativeLayout>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/exception_deal_event_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:text="事件类别："
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/deal_event_type_spinner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/exception_deal_input"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="处理结果："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/deal_result"
+                            android:layout_width="fill_parent"
+                            android:layout_height="100dip"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:hint="请输入处理结果"
+                            android:maxLength="500"
+                            android:textColor="@color/textcolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="结果备注："
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/deal_remark"
+                            android:layout_width="fill_parent"
+                            android:layout_height="100dip"
+                            android:background="@drawable/edittext_common"
+                            android:gravity="top"
+                            android:hint="请输入结果备注"
+                            android:maxLength="500"
+                            android:textColor="@color/textcolor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/bigsepline" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/exception_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="@string/save"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/exception_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="@string/cancel"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="19sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

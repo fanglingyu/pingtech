@@ -1,0 +1,1393 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:2:1-849:12
+	package
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:4:5-27
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:6:5-36
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:8:5-44
+MERGED from [pingtech:AndroidImageCachemaster:unspecified] F:\develop\AndroidStudioProjects\pingtech\AndroidImageCachemaster\build\intermediates\bundles\default\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:8:15-41
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+		INJECTED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:13:5-84
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:13:22-81
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:14:22-70
+uses-permission#android.permission.WRITE_SECURES
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:15:22-69
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:16:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:18:5-84
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:18:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.INTERNET
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:21:5-67
+MERGED from [pingtech:AndroidImageCachemaster:unspecified] F:\develop\AndroidStudioProjects\pingtech\AndroidImageCachemaster\build\intermediates\bundles\default\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:24:5-82
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:24:22-79
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:26:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:31:5-71
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:31:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:33:5-66
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:33:22-63
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:34:5-78
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:34:22-75
+uses-permission#android.permission.CAMERA
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:38:22-62
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:39:5-75
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:39:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:42:22-65
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:43:5-78
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:43:22-75
+uses-feature#android.hardware.camera
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:45:5-47:35
+	android:required
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:47:9-32
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:46:9-47
+uses-feature#android.hardware.camera.front
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:48:5-50:36
+	android:required
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:50:9-33
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:49:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:51:5-53:36
+	android:required
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:53:9-33
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:52:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:54:5-56:36
+	android:required
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:56:9-33
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:55:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:57:5-70
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:57:19-67
+uses-feature#android.hardware.wifi
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:58:5-60:36
+	android:required
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:60:9-33
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:59:9-45
+uses-feature#android.hardware.touchscreen
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:61:5-65
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:61:19-62
+supports-screens
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:63:5-68:40
+MERGED from [pingtech:AndroidImageCachemaster:unspecified] F:\develop\AndroidStudioProjects\pingtech\AndroidImageCachemaster\build\intermediates\bundles\default\AndroidManifest.xml:12:5-14:39
+	android:largeScreens
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:65:9-36
+	android:smallScreens
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:67:9-36
+	android:normalScreens
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:66:9-37
+	android:xlargeScreens
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:68:9-37
+	android:anyDensity
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:64:9-34
+application
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:71:5-847:19
+	android:label
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:74:9-45
+	android:icon
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:73:9-41
+	android:largeHeap
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:75:9-33
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:72:9-62
+activity#com.pingtech.hgqw.module.login.activity.Login
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:76:9-83:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:81:13-49
+	android:label
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:79:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:80:13-43
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:78:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:82:13-66
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:77:13-73
+activity#com.pingtech.hgqw.module.cfzg.CfzgIndex
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:85:9-91:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:89:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:88:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:87:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:90:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:86:13-67
+activity#com.pingtech.hgqw.module.home.activity.Welcome
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:92:9-102:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:95:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:94:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:96:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:93:13-74
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:97:13-101:29
+action#android.intent.action.MAIN
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:98:17-69
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:98:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:100:17-77
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:100:27-74
+activity#com.pingtech.hgqw.readcard.test.activity.ReadActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:103:9-115:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:106:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:108:13-52
+	tools:ignore
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:109:13-45
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:105:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:107:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:104:13-81
+activity#com.pingtech.hgqw.service.test.GpsTestActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:116:9-127:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:119:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:121:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:118:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:120:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:117:13-74
+activity#com.pingtech.hgqw.module.offline.test.TestActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:128:9-138:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:132:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:131:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:130:13-63
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:129:13-78
+activity#com.pingtech.hgqw.service.test.TestServiceActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:139:9-149:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:143:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:142:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:141:13-63
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:140:13-78
+activity#com.pingtech.hgqw.module.home.activity.Index
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:150:9-156:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:154:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:153:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:152:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:155:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:151:13-72
+activity#com.pingtech.hgqw.module.cfzg.FullScreenActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:157:9-161:20
+	android:label
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:159:13-45
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:160:13-61
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:158:13-76
+activity#com.pingtech.hgqw.module.xtgl.activity.OfflineDataActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:162:9-168:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:166:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:165:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:164:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:167:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:163:13-86
+activity#com.pingtech.hgqw.module.offline.base.BaseDbActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:169:9-174:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:172:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:171:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:173:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:170:13-80
+activity#com.pingtech.hgqw.module.tikou.activity.TikouManager
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:175:9-181:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:179:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:178:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:177:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:180:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:176:13-68
+activity#com.pingtech.hgqw.module.tikou.activity.TiKouReadCard
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:182:9-193:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:185:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:187:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:184:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:186:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:183:13-69
+activity#com.pingtech.hgqw.module.kakou.activity.KaKouReadCard
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:194:9-200:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:197:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:199:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:196:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:198:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:195:13-69
+activity#com.pingtech.hgqw.module.kakou.activity.KakouCljc
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:201:9-213:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:205:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:204:13-44
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:207:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:203:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:206:13-39
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:202:13-65
+activity#com.pingtech.hgqw.module.xunjian.activity.XunjianCljc
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:214:9-221:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:218:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:217:13-44
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:220:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:216:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:219:13-39
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:215:13-81
+activity#com.pingtech.hgqw.module.xunjian.activity.XunjianClglSdbc
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:222:9-229:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:226:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:225:13-44
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:228:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:224:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:227:13-39
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:223:13-85
+activity#com.pingtech.hgqw.module.kakou.activity.KakouClglSdbc
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:230:9-237:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:234:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:233:13-44
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:236:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:232:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:235:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:231:13-69
+activity#com.pingtech.hgqw.module.tikou.activity.TikoucymdActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:239:9-245:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:242:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:244:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:241:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:243:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:240:13-85
+activity#com.pingtech.hgqw.module.kakou.activity.KakouManager
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:246:9-252:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:250:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:249:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:248:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:251:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:247:13-68
+activity#com.pingtech.hgqw.module.police.activity.MyPoliceList
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:253:9-259:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:257:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:256:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:255:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:258:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:254:13-69
+activity#com.pingtech.hgqw.activity.SystemActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:260:9-265:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:263:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:262:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:264:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:261:13-57
+activity#com.pingtech.hgqw.module.exception.activity.Exceptioninfo
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:266:9-271:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:269:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:268:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:270:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:267:13-73
+activity#com.pingtech.hgqw.module.exception.activity.ExceptionView
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:272:9-277:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:275:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:274:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:276:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:273:13-73
+activity#com.pingtech.hgqw.module.cbdt.activity.ShipStatus
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:278:9-284:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:282:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:281:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:280:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:283:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:279:13-65
+activity#com.pingtech.hgqw.module.kacbqk.activity.KacbqkShipSearch
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:285:9-291:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:289:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:288:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:287:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:290:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:286:13-85
+activity#com.pingtech.hgqw.module.kacbqk.activity.KacbqkShipList
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:292:9-298:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:296:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:295:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:294:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:297:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:293:13-83
+activity#com.pingtech.hgqw.module.kacbqk.activity.KacbqkShipInfo
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:299:9-305:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:303:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:302:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:301:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:304:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:300:13-83
+activity#com.pingtech.hgqw.module.kacbqk.activity.KacbqkSailorList
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:306:9-312:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:310:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:309:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:308:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:311:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:307:13-85
+activity#com.pingtech.hgqw.module.kacbqk.activity.KacbqkDldlList
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:313:9-319:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:317:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:316:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:315:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:318:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:314:13-83
+activity#com.pingtech.hgqw.activity.ShipListActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:320:9-325:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:323:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:322:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:324:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:321:13-59
+activity#com.pingtech.hgqw.module.cbdt.activity.CbdtShipDetail
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:326:9-331:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:329:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:328:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:330:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:327:13-81
+activity#com.pingtech.hgqw.module.xunjian.activity.ReadcardActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:332:9-338:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:335:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:337:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:334:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:336:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:333:13-86
+activity#com.pingtech.hgqw.module.bindship.activity.ReadSlotCardActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:339:9-343:59
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:342:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:341:13-74
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:343:13-56
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:340:13-79
+activity#com.pingtech.hgqw.activity.RegisterPersoninfoActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:344:9-350:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:347:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:349:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:346:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:348:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:345:13-69
+activity#com.pingtech.hgqw.activity.SelectShipActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:351:9-356:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:354:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:353:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:355:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:352:13-61
+activity#com.pingtech.hgqw.activity.SelectShipResultActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:357:9-362:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:360:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:359:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:361:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:358:13-67
+activity#com.pingtech.hgqw.activity.SelectDeviceActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:363:9-368:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:366:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:365:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:367:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:364:13-63
+activity#com.pingtech.hgqw.activity.SelectDeviceResultActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:369:9-374:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:372:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:371:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:373:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:370:13-69
+activity#com.pingtech.hgqw.activity.ShipDetailActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:375:9-380:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:378:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:377:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:379:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:376:13-61
+activity#com.pingtech.hgqw.module.police.activity.MyPoliceDetail
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:381:9-386:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:384:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:383:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:385:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:382:13-71
+activity#com.pingtech.hgqw.module.qwjw.activity.QwzlDetail
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:387:9-392:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:390:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:389:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:391:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:388:13-77
+activity#com.pingtech.hgqw.activity.PopupActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:393:9-400:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:398:13-49
+	android:label
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:396:13-41
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:397:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:395:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:399:13-56
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:394:13-56
+activity#com.pingtech.hgqw.module.login.activity.LoginByCard
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:401:9-407:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:405:13-49
+	android:label
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:404:13-41
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:403:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:406:13-56
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:402:13-67
+activity#com.pingtech.hgqw.activity.SelectCountrylistActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:408:9-413:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:411:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:410:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:412:13-56
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:409:13-68
+activity#com.pingtech.hgqw.module.xunjian.activity.XunChaXunJian
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:414:9-420:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:418:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:417:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:416:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:419:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:415:13-71
+activity#com.pingtech.hgqw.module.exception.activity.Exceptionlist
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:421:9-426:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:424:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:423:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:425:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:422:13-73
+activity#com.pingtech.hgqw.module.sjcj.activity.BaseInfoMaintenanceActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:427:9-432:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:430:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:429:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:431:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:428:13-94
+activity#com.pingtech.hgqw.activity.PersonBalanceActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:433:9-438:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:436:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:435:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:437:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:434:13-64
+activity#com.pingtech.hgqw.activity.SelectPersonActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:439:9-444:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:442:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:441:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:443:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:440:13-63
+activity#com.pingtech.hgqw.activity.SelectPersonResultActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:445:9-450:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:448:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:447:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:449:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:446:13-69
+activity#com.pingtech.hgqw.activity.ChangePswActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:451:9-456:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:454:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:453:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:455:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:452:13-60
+activity#com.pingtech.hgqw.module.wpjc.activity.GoodsCheckList
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:457:9-463:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:461:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:460:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:459:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:462:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:458:13-69
+activity#com.pingtech.hgqw.module.wpjc.activity.GoodsCheckView
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:464:9-470:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:467:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:469:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:466:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:468:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:465:13-69
+activity#com.pingtech.hgqw.activity.NetworkSettingActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:471:9-476:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:474:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:473:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:475:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:472:13-65
+activity#com.pingtech.hgqw.activity.DutyPersonlistActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:477:9-482:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:480:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:479:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:481:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:478:13-65
+activity#com.pingtech.hgqw.activity.UpdateActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:483:9-488:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:486:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:485:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:487:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:484:13-57
+activity#com.pingtech.hgqw.module.cgcs.activity.CgcsDetail
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:489:9-494:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:493:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:492:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:491:13-63
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:490:13-65
+activity#com.pingtech.hgqw.module.bindship.activity.ShipBind
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:495:9-501:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:498:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:500:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:497:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:499:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:496:13-67
+activity#com.pingtech.hgqw.module.bindship.activity.ShipBindList
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:502:9-507:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:505:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:504:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:506:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:503:13-71
+activity#com.pingtech.hgqw.module.yydj.activity.TalkBack
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:508:9-514:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:512:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:511:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:510:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:513:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:509:13-63
+activity#com.pingtech.hgqw.activity.InspectPlace
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:515:9-520:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:518:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:517:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:519:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:516:13-55
+service#com.pingtech.hgqw.service.PingtechService
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:522:9-528:19
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:522:18-62
+intent-filter#android.intent.category.default+com.pingtech.PINGTECH_SERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:523:13-527:29
+action#com.pingtech.PINGTECH_SERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:524:17-72
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:524:25-69
+category#android.intent.category.default
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:526:17-76
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:526:27-73
+service#com.pingtech.hgqw.service.AndSerOffLineData
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:529:9-535:19
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:529:18-76
+intent-filter#android.intent.category.default+com.pingtech.ANDSEROFFLINEDATA
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:530:13-534:29
+action#com.pingtech.ANDSEROFFLINEDATA
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:531:17-73
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:531:25-70
+service#com.pingtech.hgqw.service.ListenerService
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:536:9-542:19
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:536:18-62
+intent-filter#android.intent.category.default+com.pingtech.LISTENER_SERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:537:13-541:29
+action#com.pingtech.LISTENER_SERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:538:17-72
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:538:25-69
+service#com.pingtech.hgqw.service.SynchDataService
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:543:9-549:19
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:543:18-63
+intent-filter#android.intent.category.default+com.pingtech.SYNCHDATA_SERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:544:13-548:29
+action#com.pingtech.SYNCHDATA_SERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:545:17-73
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:545:25-70
+service#com.pingtech.hgqw.mqtt.service.MqttService
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:551:9-559:19
+	android:label
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:553:13-45
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:552:13-70
+intent-filter#android.intent.category.default+com.pingtech.MQTTSERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:554:13-558:29
+action#com.pingtech.MQTTSERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:555:17-67
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:555:25-64
+service#com.pingtech.hgqw.service.ImageDownloadService
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:560:9-566:19
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:560:18-79
+intent-filter#android.intent.category.default+com.pingtech.IMAGEDOWNLOADSERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:561:13-565:29
+action#com.pingtech.IMAGEDOWNLOADSERVICE
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:562:17-76
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:562:25-73
+service#com.pingtech.hgqw.service.Pa8GPSListener
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:567:9-76
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:567:18-73
+service#com.pingtech.hgqw.readcard.service.Pa8ReadListener
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:568:9-570:48
+	tools:ignore
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:570:13-45
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:569:13-78
+receiver#com.pingtech.hgqw.service.PingtechReceiver
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:572:9-580:20
+	android:enabled
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:574:13-35
+	android:label
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:576:13-45
+	android:exported
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:575:13-37
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:573:13-70
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:577:13-579:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:578:17-79
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:578:25-76
+activity#com.pingtech.hgqw.activity.CustomDialog
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:590:9-595:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:593:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:592:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:594:13-50
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:591:13-55
+activity#com.pingtech.hgqw.activity.CustomDialogForExit
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:596:9-601:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:599:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:598:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:600:13-50
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:597:13-62
+activity#com.pingtech.hgqw.module.wpjc.activity.GoodsReadCard
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:602:9-608:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:605:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:607:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:604:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:606:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:603:13-68
+activity#com.pingtech.hgqw.module.wpjc.activity.GoodsPersonDetail
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:609:9-615:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:612:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:614:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:611:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:613:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:610:13-72
+activity#com.pingtech.hgqw.module.wpjc.activity.GoodsPersoninfo
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:616:9-622:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:619:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:621:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:618:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:620:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:617:13-70
+activity#com.pingtech.hgqw.module.cgcs.activity.CgcsReadcard
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:623:9-629:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:626:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:628:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:625:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:627:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:624:13-67
+activity#com.pingtech.hgqw.module.bindplace.activity.BindPlaceReadcard
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:630:9-636:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:633:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:635:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:632:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:634:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:631:13-77
+activity#com.pingtech.hgqw.module.bindplace.activity.BindPlaceDetail
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:637:9-643:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:640:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:642:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:639:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:641:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:638:13-75
+activity#com.pingtech.hgqw.module.cfzg.CfzgCustomDialog
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:645:9-650:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:648:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:647:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:649:13-50
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:646:13-74
+activity#com.pingtech.hgqw.module.cfzg.CfzgCustomDialogForExit
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:651:9-656:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:654:13-49
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:653:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:655:13-50
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:652:13-81
+activity#com.pingtech.hgqw.module.cfzg.CfzgLoginByUserName
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:657:9-663:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:661:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:660:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:659:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:662:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:658:13-77
+activity#com.pingtech.hgqw.module.cfzg.CfzgNetworkSettingActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:664:9-671:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:668:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:667:13-44
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:670:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:666:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:669:13-54
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:665:13-84
+activity#com.pingtech.hgqw.module.cfzg.CfzgPopupActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:672:9-678:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:676:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:675:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:674:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:677:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:673:13-75
+activity#com.pingtech.hgqw.module.cfzg.CfzgReadcardActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:679:9-685:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:683:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:682:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:681:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:684:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:680:13-78
+activity#com.pingtech.hgqw.module.cfzg.IdreadtestActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:686:9-693:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:690:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:689:13-44
+	tools:ignore
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:692:13-45
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:688:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:691:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:687:13-76
+activity#com.pingtech.hgqw.module.cfzg.CfzgSailorList
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:694:9-700:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:698:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:697:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:696:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:699:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:695:13-72
+activity#com.pingtech.hgqw.module.cfzg.CfzgSelectShipActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:701:9-707:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:705:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:704:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:703:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:706:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:702:13-80
+activity#com.pingtech.hgqw.module.cfzg.CfzgShipBindList
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:708:9-714:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:712:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:711:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:710:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:713:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:709:13-74
+activity#com.pingtech.hgqw.module.cfzg.CfzgSelectShipResult
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:715:9-721:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:719:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:718:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:717:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:720:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:716:13-78
+activity#com.pingtech.hgqw.module.cfzg.CfzgShipBind
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:722:9-729:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:726:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:725:13-44
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:728:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:724:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:727:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:723:13-70
+activity#com.pingtech.hgqw.module.cfzg.CfzgShipDetailActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:730:9-736:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:734:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:733:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:732:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:735:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:731:13-80
+activity#com.pingtech.hgqw.module.cfzg.CfzgShipListActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:737:9-743:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:741:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:740:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:739:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:742:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:738:13-78
+activity#com.pingtech.hgqw.module.cfzg.CfzgShipStatus
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:744:9-750:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:748:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:747:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:746:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:749:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:745:13-72
+activity#com.pingtech.hgqw.module.cfzg.CfzgSuperActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:751:9-757:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:755:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:754:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:753:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:756:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:752:13-75
+activity#com.pingtech.hgqw.module.cfzg.CfzgUpdateActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:758:9-764:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:762:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:761:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:760:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:763:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:759:13-76
+activity#com.pingtech.hgqw.module.cfzg.CfzgUseOnly
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:765:9-771:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:769:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:768:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:767:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:770:13-48
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:766:13-69
+activity#com.pingtech.hgqw.module.xtgl.activity.FunctionSetting
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:772:9-778:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:775:13-49
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:777:13-52
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:774:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:776:13-44
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:773:13-82
+activity#com.pingtech.hgqw.zxing.CaptureActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:780:9-794:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:785:13-49
+	android:stateNotNeeded
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:786:13-42
+	android:hardwareAccelerated
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:783:13-47
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:784:13-43
+	android:windowSoftInputMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:788:13-60
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:782:13-63
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:787:13-71
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:781:13-67
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SCANS
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:789:13-793:29
+action#com.google.zxing.client.android.SCANS
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:790:17-80
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:790:25-77
+category#android.intent.category.DEFAULT
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:792:17-76
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:792:27-73
+activity#com.pingtech.hgqw.zxing.ZxingDialogActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:795:9-805:20
+	android:label
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:797:13-45
+	android:stateNotNeeded
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:798:13-42
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:799:13-66
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:796:13-71
+intent-filter#android.intent.category.DEFAULT+com.pingtech.hgqw.zxing.client.android.SCANS.dialog
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:800:13-804:29
+action#com.pingtech.hgqw.zxing.client.android.SCANS.dialog
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:801:17-94
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:801:25-91
+receiver#com.pingtech.hgqw.mqtt.receiver.MessageReceiver
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:807:9-811:20
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:807:19-81
+intent-filter#com.qonect.services.mqtt.MSGRECVD
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:808:13-810:29
+action#com.qonect.services.mqtt.MSGRECVD
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:809:17-76
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:809:25-73
+receiver#com.pingtech.hgqw.module.qwjw.QwzlBroadCaseReceiver
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:812:9-816:20
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:812:19-85
+intent-filter#com.pingtech.hgqw.module.qwjw.QwzlBroadCaseReceiver
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:813:13-815:29
+action#com.pingtech.hgqw.module.qwjw.QwzlBroadCaseReceiver
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:814:17-94
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:814:25-91
+activity#com.pingtech.hgqw.module.qwjw.activity.QwjwActivity
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:819:9-831:20
+	android:screenOrientation
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:824:13-49
+	android:launchMode
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:823:13-44
+	android:configChanges
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:821:13-63
+	android:icon
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:822:13-58
+	android:theme
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:825:13-47
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:820:13-79
+service#com.softsz.mimaqudongservice.ExternalDeviceDriverService
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:833:9-846:19
+	android:process
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:836:13-59
+	android:exported
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:835:13-36
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:834:13-84
+intent-filter#com.softsz.IDCARDACTION
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:837:13-839:29
+action#com.softsz.IDCARDACTION
+ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:838:17-66
+	android:name
+		ADDED from F:\develop\AndroidStudioProjects\pingtech\pingtech\src\main\AndroidManifest.xml:838:25-63

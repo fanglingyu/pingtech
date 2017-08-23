@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_h"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/btn_send_by_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="刷电子标签"
+                    android:textColor="@color/selectTextColor"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/image_btn_send_by_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dip"
+                    android:layout_marginRight="1dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/exception_line_s" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="12dip"
+                android:layout_marginTop="5dip"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/btn_send_by_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="按名称采集"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/image_btn_send_by_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dip"
+                    android:layout_marginRight="1dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/exception_line_n" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/send_by_card_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="5dip"
+                    android:text="@string/readInfoLabelDataBy_baseinfo"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/paycardhint"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/baseinfo_type_title"
+                        android:textColor="@color/white"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/baseinfodetail_type"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/baseinfo_type"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/baseinfo_name_title"
+                        android:textColor="@color/white"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/baseinfodetail_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/baseinfo_name"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/baseinfo_icnumber"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/iccardinput"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:singleLine="true"
+                        android:textSize="19sp" />
+
+                    <Button
+                        android:id="@+id/baseinfo_select"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="0.7"
+                        android:text="@string/ok"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/send_by_name_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/btn_refresh"
+                android:textSize="19sp" >
+            </Button>
+
+            <LinearLayout
+                android:id="@+id/baseinfo_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/listview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@color/divider"
+                    android:dividerHeight="0.5px"
+                    android:fadingEdge="none"
+                    android:focusable="true"
+                    android:listSelector="#00000000" >
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/area_gpsinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/current_lon"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="经度："
+                android:textColor="@color/white"
+                android:textSize="19sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/current_lat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="纬度："
+                android:textColor="@color/white"
+                android:textSize="19sp" >
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/baseinfo_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="采集"
+                android:textSize="19sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

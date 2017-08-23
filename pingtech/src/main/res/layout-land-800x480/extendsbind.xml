@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/extends_bind_info"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <CheckBox
+        android:id="@+id/shipstatus_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textColor="@color/black" >
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/tikou_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textColor="@color/black" >
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/kakou_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textColor="@color/black" >
+    </CheckBox>
+
+</LinearLayout>

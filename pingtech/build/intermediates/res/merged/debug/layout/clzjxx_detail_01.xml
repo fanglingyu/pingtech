@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        android:id="@+id/yzjg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Valid_results"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txfx"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Traffic_direction"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView_Traffic_direction"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dip" >
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/yzjg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/cardinfo"
+                    android:textColor="@color/TitleInfoTextColor"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bigsepline" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/cphm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="车牌号码："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/fdjh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="发动机号："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/cllx"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="车辆类型："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/gjdq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="国家地区："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/clsbdh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="识别代号："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/clpp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="车辆品牌："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/clys"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="车辆颜色："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/gs_yyz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="公司/拥有者："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/syfw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="使用范围："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/yxq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="有效期："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txsj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="通行时间："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/cardphoto"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/icpic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dip"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/photo" >
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:src="@drawable/bigsepline" />
+
+                <LinearLayout
+                    android:id="@+id/lv_ry"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/jsyxm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="驾驶员姓名："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/xb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sel_person_sex"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/gj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="国　　籍："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/csrq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="出生日期："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/zjzl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sel_person_cardtype"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/zjhm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/idcardnum"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/jszh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="驾驶证编号："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/zw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sel_person_office"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/lxfs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="联系方式："
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ssdw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/goods_check_unit"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/view_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/bigsepline" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/xgtxfx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:background="@drawable/btn_common"
+                    android:text="@string/modifypassdict"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/jlyc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="记录异常"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="@string/manualinput"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/wpjc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="@string/Goods_check"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/sewm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:background="@drawable/btn_common"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:text="@string/wpjc_erweimasaomiao"
+                    android:textColor="@drawable/btn_textcolor"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

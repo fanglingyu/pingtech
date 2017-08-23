@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="#f0f3fa"
+    android:paddingTop="15dip"
+     >
+
+    <CheckBox
+        android:id="@+id/tb_user_checkbox"
+        android:layout_width="55dip"
+        android:layout_height="wrap_content"
+        android:button="@drawable/tb_checkbox" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:src="@drawable/user_pic" />
+
+    <TextView
+        android:id="@+id/tb_user_checkbox_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:text="pda测试"
+        android:textColor="#000000"
+        android:textSize="20.sp" />
+
+</LinearLayout>

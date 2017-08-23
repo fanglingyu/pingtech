@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:clickable="false"
+        android:text="@string/histroy_data" />
+
+    <Button
+        android:id="@+id/operate_btn"
+        android:layout_width="60dip"
+        android:layout_height="30dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_common"
+        android:gravity="center"
+        android:textColor="@drawable/btn_textcolor"
+        android:textSize="10dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/divider" />
+    </LinearLayout>
+
+</LinearLayout>

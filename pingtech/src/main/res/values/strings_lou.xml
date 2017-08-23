@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="not_null_xm_zjhm">姓名、证件号码不能同时为空 </string>
+    <string name="filed_validate_card">验证失败，不是边防证件！ </string>
+    <string name="filed_validate_soldier">士兵卡不存在！ </string>
+    <string name="no_web_cannot_unbind_place">离线模式无法进行地点解绑 </string>
+    <string name="no_web_cannot_bind_place">离线模式无法进行地点绑定 </string>
+    <string name="no_web_cannot_unbind_kakou">离线模式无法进行卡口解绑 </string>
+    <string name="no_web_cannot_bind_kakou">离线模式无法进行卡口绑定 </string>
+    <string name="no_web_cannot_cgcs">离线模式无法进行查岗查哨 </string>
+    <string name="no_data_fromplace">公安库数据为空！</string>
+    <string name="no_web_cannot_person_balance">离线模式无法进行人员平衡操作 </string>
+    <string name="no_web_cannot_webset">离线模式无法进行网络设置 </string>
+    <string name="no_web_cannot_gpsset">离线模式无法进行GPS设置 </string>
+    <string name="no_web_cannot_dictionary">离线模式无法进行数据字典同步 </string>
+    <string name="no_web_cannot_passwordset">离线模式无法进行修改密码 </string>
+    <string name="no_web_cannot_updatesoft">离线模式无法进行软件升级 </string>
+    <string name="no_web_cannot_clearemsmemory">离线模式无法进行清除缓存 </string>
+    <string name="no_web_cannot_download_offline_data">离线模式无法下载离线数据 </string>
+    <string name="no_web_cannot_systemset">离线模式无法进行系统管理</string>
+   	<string name="function_setting">功能设置</string>
+</resources>

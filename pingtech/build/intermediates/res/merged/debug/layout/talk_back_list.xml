@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f0f3fa"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/talk_back_list_audio_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f3fa"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dip"
+            android:layout_weight="10"
+            android:background="#f0f3fa"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ListView
+                android:id="@+id/talk_back_audio_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="20dip"
+                android:layout_weight="10"
+                android:background="#00000000"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:stackFromBottom="true"
+                android:dividerHeight="0dip"
+                android:footerDividersEnabled="false"
+                android:listSelector="#00000000" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/tb_bottom_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/talk_back_btn_edit"
+                android:layout_width="45dip"
+                android:layout_height="40dip"
+                android:background="@drawable/tb_del_history"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/talk_back_list_button"
+                android:layout_width="wrap_content"
+                android:layout_height="45dip"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:background="@drawable/tb_btn_com"
+                android:gravity="center"
+                android:text="按住说话"
+                android:textColor="#000000"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/talk_back_list_btn_add_user"
+                android:layout_width="45dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center"
+                android:background="@drawable/tb_add_user"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+         android:id="@+id/talk_back_user_layout_sv"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" 
+         android:visibility="gone" 
+        android:layout_marginBottom="50dip">
+
+        <LinearLayout
+           android:id="@+id/talk_back_user_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/tb_layout_add_user_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/tb_bottom_bg"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/talk_back_btn_sel_all"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/tb_btn_com02"
+            android:gravity="center"
+            android:text="全选"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/talk_back_btn_user_enter"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_marginRight="15dip"
+            android:layout_weight="1"
+            android:background="@drawable/tb_btn_com"
+            android:gravity="center"
+            android:onClick="btnOnClick"
+            android:text="确定"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/talk_back_btn_user_exit"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_marginRight="15dip"
+            android:layout_weight="1"
+            android:background="@drawable/tb_btn_com02"
+            android:gravity="center"
+            android:onClick="btnOnClick"
+            android:text="取消"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

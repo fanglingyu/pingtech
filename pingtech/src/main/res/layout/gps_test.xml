@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/jd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="精度：" />
+
+    <TextView
+        android:id="@+id/wd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纬度：" />
+
+    <TextView
+        android:id="@+id/ts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示：" />
+
+    <Button
+        android:id="@+id/gps"
+        android:onClick="click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS广播" />
+    <Button
+        android:id="@+id/bd"
+        android:onClick="click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北斗广播" />
+    <Button
+        android:id="@+id/gps_bd"
+        android:onClick="click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS+北斗广播" />
+
+</LinearLayout>

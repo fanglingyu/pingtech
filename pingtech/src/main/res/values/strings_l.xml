@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_no_web">网络不可用，是否离线登录？ </string>
+    <string name="no_web_cannot_use_card">网络不可用，不能使用刷卡登录，如需登录请输入用户名密码？ </string>
+    <string name="no_userid">当前边检通没有登录历史，请在联网状态下登录获取数据？ </string>
+    <string name="history_user_not_equal">输入的用户与历史登录用户不匹配，请确认或联网状态下重新登录？ </string>
+    <string name="no_web_cannot_unbind">离线模式下无法进行船舶解绑 </string>
+    <string name="no_web_cannot_bind">离线模式下无法进行船舶绑定 </string>
+    <string name="no_web_cannot_check_duty_person">离线模式下无法查看执勤人员 </string>
+    <string name="no_web_cannot_check_dldl">离线模式下无法查看登轮登陆情况 </string>
+    <string name="has_dgsj">抵港操作失败，船舶已经抵港 </string>
+    <string name="has_lgsj">离港操作失败，船舶已经离港！</string>
+    <string name="no_web_cannot_logout">网络不可用，无法进行注销操作！ </string>
+    <string name="currentaddr_text">网络设置 </string>
+    <string name="server_kadm_title">口岸代码：</string>
+    <string name="ship_has_lg">当前执勤船舶已经离港，无法记录物品。</string>
+
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/sel_person_name"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sel_person_name_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_common"
+            android:gravity="top"
+            android:singleLine="true"
+            android:textColor="@color/textcolor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sel_person_sex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/sel_person_sex"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sel_person_sex_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sel_person_office"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/sel_person_office"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sel_person_office_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sel_person_cardtype"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/sel_person_cardtype"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sel_person_cardtype_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/idcardnum"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/cardnum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_common"
+            android:gravity="top"
+            android:singleLine="true"
+            android:textColor="@color/textcolor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sel_person_range_rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/sel_person_range_rg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/sel_person_range"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/sel_tikou_person_range_rg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_btn_tikou_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radiobutton"
+                    android:text="@string/downship"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_btn_tikou_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radiobutton"
+                    android:checked="true"
+                    android:text="@string/upship"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/sel_kakou_person_range_rg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <RadioButton
+                    android:id="@+id/radio_btn_kakou_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radiobutton"
+                    android:checked="true"
+                    android:text="@string/inkakou"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_btn_kakou_out"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radiobutton"
+                    android:text="@string/outkakou"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:paddingTop="3dip"
+            android:text="@string/no_web_info"
+            android:textColor="@color/result_minor_text"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/bigsepline" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/select_submit"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_common"
+            android:text="@string/select"
+            android:textColor="@drawable/btn_textcolor"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

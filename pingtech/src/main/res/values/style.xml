@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#778899</item>
+    </style>
+
+    <style name="CustomWindowTitleBackgroundf">
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="titleBackground">
+        <item name="android:background">@drawable/main_header_bg_v</item>
+    </style>
+
+    <style name="titlebar" parent="android:Theme">
+        <item name="android:windowTitleSize">47dip</item>
+    </style>
+    <style name="sss" parent="android:Theme">
+       <item name="android:windowTitleBackgroundStyle">@style/windowtitlebackground</item>
+    </style>
+    <style name="windowtitlebackground" >
+        <item name="android:background">@drawable/main_header_bg_v</item>
+    </style>
+
+    <style name="cfzg_style_network" parent="android:Theme">
+        <item name="android:windowTitleSize">31dip</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTitleBackgroundStyle">@style/titleBackground</item>
+    </style>
+
+    <style name="update_style" parent="android:style/Theme.Translucent">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="cfzgtitlebar" parent="android:Theme">
+        <item name="android:windowTitleSize">60dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackgroundf</item>
+    </style>
+
+    <style name="titlebar_port" parent="android:Theme">
+        <item name="android:windowTitleSize">31dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <style name="PingTechCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox</item>
+    </style>
+
+    <style name="titlebarDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="welcomeStyle" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 查询船舶信息 -->
+    <style name="radioButton">
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#213442</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- 将自定义的style取名为CustomTheme，父类为Theme.Holo.Light，也就是说默认背景是白底黑字（如果是Theme.Holo，则默认是黑底白字） -->
+    <style name="CustomTheme" parent="android:style/Theme.Holo.Light">
+
+        <!-- 这是item的背景修改，不按时透明，按时显示绿色 -->
+        <item name="android:selectableItemBackground">@drawable/main_header_bg_v</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabTextStyle</item>
+        <item name="android:actionDropDownStyle">@style/MyDropDownNav</item>
+        <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
+        <item name="android:actionBarSize">47px</item>
+        <item name="android:homeAsUpIndicator">@null</item>
+    </style>
+
+    <!-- Tab选项标签的样式 -->
+    <style name="MyActionBarTabStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_bg</item>
+    </style>
+
+    <!-- Tab选项标签字体的样式 -->
+    <style name="MyActionBarTabTextStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 下拉导航外部按钮的样式 -->
+    <style name="MyDropDownNav" parent="android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/actionbar_tab_bg</item>
+        <item name="android:popupBackground">@drawable/actionbar_tab_bg</item>
+        <item name="android:dropDownSelector">@drawable/actionbar_tab_bg</item>
+    </style>
+
+    <!-- 下拉导航内部按钮的样式 -->
+    <style name="MyDropDownListView" parent="android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/actionbar_tab_bg</item>
+    </style>
+
+    <style name="progress_dialog">
+        <item name="android:progressBarStyle">@android:style/Widget.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@android:style/Widget.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@android:style/Widget.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@android:style/Widget.ProgressBar.Large</item>
+        <item name="android:progressBarStyleInverse">@android:style/Widget.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmallInverse">@android:style/Widget.ProgressBar.Small.Inverse</item>
+        <item name="android:progressBarStyleLargeInverse">@android:style/Widget.ProgressBar.Large.Inverse</item>
+    </style>
+
+   <style name="DialogText">
+        <item name="android:textColor">#FF000000</item>
+
+        <item name="android:textSize">25sp</item>
+    </style>
+ 
+    <style name="DialogText.Title">
+        <item name="android:textSize">28sp</item>
+
+        <item name="android:textStyle">bold</item>
+    </style>
+ 
+    <style name="base_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>

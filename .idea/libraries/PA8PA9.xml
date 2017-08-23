@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PA8PA9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pingtech/libs/PA8PA9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

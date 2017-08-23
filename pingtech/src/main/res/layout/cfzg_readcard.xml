@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/cfzg_readcard_layout_cn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/mainmenu_bg_v"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:text="@string/cfzg_readcard_one"
+            android:textColor="@color/white"
+            android:textSize="22dp" >
+        </TextView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:text="@string/cfzg_readcard_two"
+            android:textColor="@color/white"
+            android:textSize="22dp" >
+        </TextView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:text="@string/cfzg_readcard_three"
+            android:textColor="@color/white"
+            android:textSize="22dp" >
+        </TextView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:text="@string/cfzg_readcard_four"
+            android:textColor="@color/white"
+            android:textSize="25dp" >
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/bigIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="120dip"
+                    android:layout_height="100dip"
+                    android:layout_marginTop="20dip"
+                    android:src="@drawable/signal_wave" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dip"
+                    android:src="@drawable/phone_big" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/cfzg_btn_zxing"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_gravity="center"
+                android:background="@drawable/cfzg_btn_all_comment"
+                android:onClick="buttonOnClick"
+                android:text="@string/cfzg_scan_zxing"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/cfzg_readcard_btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/cfzg_btn_all_comment"
+                android:onClick="buttonOnClick"
+                android:text="@string/cfzg_readcard_back"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cfzg_readcard_layout_en"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/mainmenu_bg_v"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:text="After swiping the card, if the card is valid, will show “verification passed”"
+            android:textColor="@color/white"
+            android:textSize="17sp" >
+        </TextView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:text="After swiping the card, if the card is invalid, will show “verification failed”"
+            android:textColor="@color/white"
+            android:textSize="17sp" >
+        </TextView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:text="After swiping the card, please click the “return” key"
+            android:textColor="@color/white"
+            android:textSize="17dp" >
+        </TextView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/bigsepline" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:text="Now, please swipe the card!"
+            android:textColor="@color/white"
+            android:textSize="22dp" >
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/bigIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="120dip"
+                    android:layout_height="100dip"
+                    android:layout_marginTop="20dip"
+                    android:src="@drawable/signal_wave" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dip"
+                    android:src="@drawable/phone_big" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/cfzg_btn_zxing"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_gravity="center"
+                android:background="@drawable/cfzg_btn_all_comment"
+                android:onClick="buttonOnClick"
+                android:text="Scan"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/cfzg_readcard_btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/cfzg_btn_all_comment"
+                android:onClick="buttonOnClick"
+                android:text="Return"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu_bg_v"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <TextView
+                android:id="@+id/arg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/arg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/arg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/arg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/arg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/bigsepline" />
+
+        <com.pingtech.hgqw.module.bindplace.view.MyViewGroup
+            android:layout_width="fill_parent"
+            android:layout_height="80dp" >
+
+            <Button
+                android:id="@+id/btnExceptionRegist_object"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:onClick="click"
+                android:text="@string/Exception_regist"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="13sp"
+                android:visibility="gone" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnNoIDCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:background="@drawable/btn_common"
+                android:enabled="false"
+                android:onClick="click"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/alreadybind"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="13sp"
+                android:visibility="gone" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnunbindplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:onClick="click"
+                android:paddingRight="20dip"
+                android:text="@string/unbindPlace"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="13sp"
+                android:visibility="gone" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnDuty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/duty"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="13sp"
+                android:visibility="gone" >
+            </Button>
+
+            <Button
+                android:id="@+id/bind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/alreadybind"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="13sp"
+                android:onClick="click"
+                android:visibility="gone" >
+            </Button>
+
+            <Button
+                android:id="@+id/save_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_common"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/save_note"
+                android:onClick="click"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="13sp"
+                android:visibility="gone" >
+            </Button>
+        </com.pingtech.hgqw.module.bindplace.view.MyViewGroup>
+    </LinearLayout>
+
+</ScrollView>

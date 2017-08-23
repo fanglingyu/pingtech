@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/mainmenu_bg_v"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tikou_downup_ship_linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dip"
+                android:text="@string/downup_ship"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/tikou_ship_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dip"
+                android:focusable="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tikou_downup_ship_imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bigsepline"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/readcard_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="5dip"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/radio_btn_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:button="@drawable/radiobutton"
+                android:text="@string/xunjian_normal"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:text="@string/xunjian_normal_hint"
+                android:textColor="@color/textcolor"
+                android:textSize="11sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:layout_marginTop="2dip"
+                android:src="@drawable/bigsepline" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_id_guard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:button="@drawable/radiobutton"
+                android:text="@string/xunjian_chagangchashao"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:text="@string/xunjian_chagangchashao_hint"
+                android:textColor="@color/textcolor"
+                android:textSize="11sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:src="@drawable/bigsepline" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_ic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:button="@drawable/radiobutton"
+                android:text="@string/xunjian_xunchadidian_selected"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:text="@string/xunjian_xunchadidian_hint"
+                android:textColor="@color/textcolor"
+                android:textSize="11sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bigsepline" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/payTypeTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="5dip"
+            android:text="@string/readCardData"
+            android:textColor="@color/white"
+            android:textSize="18sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:text="@string/paycardhint"
+            android:textColor="@color/textcolor"
+            android:textSize="11sp" >
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/bigIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signal_wave" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="315dip"
+                    android:maxWidth="190dip"
+                    android:src="@drawable/phone_big" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/smallIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signal_wave" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dip"
+                    android:src="@drawable/phone_small" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ic_or_id_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/tomato"
+            android:textSize="15sp"
+            android:visibility="gone" >
+        </TextView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bigsepline" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/berthcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idcardnum"
+                android:textColor="@color/white"
+                android:textSize="19sp" >
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_ic_id_change"
+                android:layout_width="85dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="113dip"
+                android:background="@drawable/btn_common"
+                android:onClick="btnClick"
+                android:text="读卡切换"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/xcxj_rcxj_select_place"
+                android:layout_width="85dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="113dip"
+                android:background="@drawable/btn_common"
+                android:onClick="btnClick"
+                android:text="手动选择"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="15dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/cardtext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="0.3"
+                android:background="@drawable/edittext_common"
+                android:singleLine="true"
+                android:textColor="@color/textcolor" />
+
+            <Button
+                android:id="@+id/btnok"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/btn_common"
+                android:text="@string/ok"
+                android:textColor="@drawable/btn_textcolor"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/bindship_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/sepline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/bigsepline" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sepline"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnsel"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:background="@drawable/btn_search"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/btnsel_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/select_ship"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/kakou_check_btnzxing"
+                    android:layout_width="28dip"
+                    android:layout_height="28dip"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_zxing"
+                    android:clickable="true"
+                    android:onClick="zxingScanMethod"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/kakou_check_zxing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="zxingScanMethod"
+                    android:text="@string/wpjc_erweimasaomiao"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
